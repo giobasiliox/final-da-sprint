@@ -1,0 +1,276 @@
+/* ediçao do h1 */
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ediçao do boody */
+body {
+    background-color: #ffff;
+    margin: 0;
+}
+/*ediçao imagem metodos */
+#imgmetodos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+/* ediçao da imagem todos */
+#section_imgmetodos {
+    text-align: center;
+    padding-top: 80px;
+}
+/* ediçao dos metodos section */
+.section_metodos {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+}
+/* ediçao dos metodos div */
+#div_metodos {
+    display: flex;
+    padding: 10px;
+}
+/* ediçao metodos section 1 */
+.section_metodos1 {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+}
+/* ediçao sobre nos div */
+#div_sobrenos1 {
+    display: flex;
+    padding: 10px;
+}
+/* ediçao do titulo dos metodos */
+#title_metodos {
+    text-align: center;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ediçao metodos section */
+.section_metodos {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/* ediçao metodos div */
+.div_metodos {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+}
+/* ediçao metodos texto */
+.text_metodos {
+    text-align: justify;
+    text-align: center;
+}
+/* ediçao do titulo dos metodos */
+#title_metodos {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+}
+
+
+/* ediçao do header */
+#header {
+    height: 250px;
+}
+/* ediçao do background */
+#section_background {
+    margin-top: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+/* ediçao do texto central */
+#texto-central {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    margin-top: 60px;
+}
+/* ediçao do p_1*/
+.p_1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/* ediçao da div apps */
+#div_apps {
+    text-align: justify;
+    margin: 0 auto;
+    width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+
+}
+/* ediçao da div apps 2 */
+#div_apps2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* ediçao do pai article */
+.pai_article {
+    text-align: justify;
+    margin: 0 auto;
+    width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* ediçao do footer */
+#footer {
+    height: 550px;
+}
+/* ediçao do section apps 2 */
+.section_apps2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* ediçao do texto dos creditos*/
+#text_credits {
+    color: gray;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ediçao do texto publicado */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ediçao texto da data */
+.text_date {
+    padding-left: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ediçao section creditos */
+#section_credits {
+    margin-left: 365px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ediçao h3*/
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: -40px;
+
+}
+/* ediçao section noticias */
+.section_noticias {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 940px;
+    margin-left: 15px;
+}
+/* ediçao imagem noticia */
+.img_noticias {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ediçao imagem textN*/
+.img_textN {
+    display: flex;
+}
+/* ediçao texto noticias */
+.text_noticias {
+    padding-left: 15px;
+    color: gray;
+}
+/* ediçao texto publicado */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+/* ediçao icone */
+.icon_text {
+    display: flex;
+}
+/* ediçao imagem das estrelas */
+.img_stars {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+/* ediçao do texto date */
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+/* ediçao titulo das categorias */
+.title_categorias {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+    border-radius: 42px;
+    border: 4px solid #32425b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 9px 9px;
+    text-decoration: none;
+    margin-right: 550px;
+}
+/* ediçao titulo categorias */
+.title_categorias:hover {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+}
+/* ediçao titulo categorias */
+.title_categorias:active {
+    position: relative;
+    top: 1px;
+}
+/* ediçao titulo noticias */
+.title_noticias {
+    text-align: left;
+    color: black;
+}
+/* remoçao do  hiperlink */
+a {
+    text-decoration: none;
+}
+/* edçao article comentarios */
+#article_comentarios {
+    display: flex;
+    margin-right: 45px;
+    margin-left: 16px;
+    margin-top: 220px;
+}
+/* ediçao da borda */
+.borda_comentarios {
+    resize: none;
+   
+}
+ /* ediçao da class h3 */ 
+.class_h3 {
+    margin-left: 45px;
+    font-family: arial;
+    padding-bottom: 20px;
+}
+

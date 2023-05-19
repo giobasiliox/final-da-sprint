@@ -1,0 +1,222 @@
+/* ediçao do h1 */
+h1 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-family: Arial;
+}
+ 
+/* ediçao do p */
+p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: medium;
+}
+/* ediçao  do boddy */
+body {
+    background-color: #ffff;
+    margin: 0;
+}
+/* ediçao da imagem o que é */
+#imgoqueé {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+/*ediçao section  da imagem o que é */
+#section_imgoqueé {
+    text-align: center;
+    padding-top:80px;
+}
+/* ediçao section o que é */
+.section_oqueé {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    
+    font-size: medium;
+}
+/* ediçao div o que é */
+#div_oqueé {
+    display: flex;
+    padding: 10px;
+}
+/* ediçao da section o que é 2 */
+.section_oqueé2 {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+    font-family: Arial;
+    font-size: medium;
+}
+/* ediçao div o que é 2 */
+#div_oqueé2 {
+    display: flex;
+    padding: 10px;
+}
+
+#title_oqueé {
+    text-align: center;
+    padding-left: 10px;
+    font-family: Arial;
+}
+/* ediçao background */
+#section_background {
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ediçao texto central */
+#texto-central {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+/* ediçao  p_1 */
+.p_1{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: medium;
+    padding-top: 15px;
+}
+
+/* ediçao imagem do chapeu */
+#img_chapeu{
+    margin-left: 50px;
+}
+/* ediçao texto dos creditos */
+#text_credits {
+    color: gray;
+    font-size: 13px;
+
+}
+/* ediçao texto publicado */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+/* ediçao texto data */
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+/* ediçao texto creditos */
+#section_credits {
+    margin-left: 365px;
+}
+/* ediçao do h3 */
+h3 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-family: Arial;
+    font-size: xx-large;
+    margin-top: -190px;
+    padding-bottom: 10px;
+    
+}
+/* ediçao das noticias */
+.section_noticias {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 940px;
+    margin-left: 15px;
+}
+/* ediçao imagem noticias */
+.img_noticias {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ediçao texo */
+.img_textN {
+    display: flex;
+}
+/* ediçao texto noticias */
+.text_noticias {
+    padding-left: 15px;
+    color: gray;
+}
+/* ediçao do texto publicado */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+/* ediçao icone */
+.icon_text {
+    display: flex;
+}
+/* ediçao das estrelas */
+.img_stars {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+/* ediçao do texto date */ 
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+/* ediçao do titulo das categorias */
+.title_categorias {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+    border-radius: 42px;
+    border: 4px solid #32425b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 9px 9px;
+    text-decoration: none;
+    margin-right: 550px;
+}
+/* ediçao titulo das categorias */
+.title_categorias:hover {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+}
+/* ediçao do titulo das categorias */
+.title_categorias:active {
+    position: relative;
+    top: 1px;
+}
+/* ediçao do titulo das noticias */
+.title_noticias {
+    text-align: left;
+}
+/* remoçao dos hiperlinks */
+a {
+    text-decoration: none;
+}
+/* ediçao dos comentarios */
+#article_comentarios {
+    display: flex;
+    margin-right: 45px;
+    margin-left: 16px;
+    margin-top: 220px;
+}
+/* ediçao da borda dos comentarios */
+.borda_comentarios {
+    resize: none;
+   
+}
+ /* ediçao do h3 */
+.class_h3 {
+    margin-left: 45px;
+    font-family: arial;
+    padding-bottom: 20px;
+}

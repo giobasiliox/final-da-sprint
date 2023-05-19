@@ -1,0 +1,165 @@
+#section_1 {
+    display: flex;
+    margin-bottom: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+#section_2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
+   margin-left: 60px ;
+    
+}
+
+.flip_card {
+    background-color: transparent;
+    width: 250px;
+    height: 375px;
+    margin-right: 40px;
+    height: 200px;
+    perspective: 1000px;
+
+}
+
+.flip_card_inner {
+    position: relative;
+    width: 250px;
+    height: 375px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    -webkit-box-shadow: 5px 5px 19px 1px rgba(67, 67, 67, 0.58);
+    box-shadow: 5px 5px 19px 1px rgba(67, 67, 67, 0.58);
+    border-radius: 20px;
+
+}
+
+.flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+
+}
+
+.flip_card_front,
+.flip_card_back {
+    position: absolute;
+    width: 250px;
+
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+}
+
+.fçip_card_front {
+    color: black;
+}
+
+.flip_card_back {
+    color: black;
+    transform: rotateY(180deg)
+}
+
+img {
+    border-radius: 20px;
+}
+
+.flip_card_back h1,
+p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.flip_card_front_duna{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/ficçao/Dune\ \(1\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+.flip_card_front_blade{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/ficçao/Blade\ Runner\ 2049\ \(2017\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_1{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/ficçao/Jogador\ No\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+
+.flip_card_front_maze{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/ficçao/Maze\ Runner.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_torre{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/ficçao/download\ \(1\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_gravidade {
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/ficçao/sandra.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+.flip_card_front_amor {
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/ficçao/download\ \(2\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_vingadores{
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/ficçao/Vingadores.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+* {
+    margin:0 ;
+    padding: 0;
+}
