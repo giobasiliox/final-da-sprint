@@ -125,7 +125,7 @@ body {
     margin-left: 180px;
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:780px) {
     p {
         font-size: 16px;
     }
@@ -135,6 +135,8 @@ body {
     #footer {
         width:100%;
         margin:0;
+        height:1000px;
+        margin-bottom:-5px;
     }
     #section_background {
         width:100%;
@@ -143,15 +145,20 @@ body {
     .section_sobrenos {
         margin-right:0;
         margin-left:0;
+        margin-left:24.5%;
     }
     .section_sobrenos1 {
         margin-left:0;
         margin-right:0;
+        margin-left:24.5%;
     }
     * {
         margin:0%;
     }
     body {
         width: 100%;
+    }
+    #div_sobrenos {
+        flex-direction:column;
     }
 }
