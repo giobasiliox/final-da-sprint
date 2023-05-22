@@ -17,12 +17,12 @@ function adicionarnot() {
         datas.push(data)
         descricoes.push(descricao)
         autores.push(autor)
-    
+
         titulo = ''
         data = ''
         descricao = ''
         autor = ''
-    
+
         document.getElementById('titulo').value = ''
         document.getElementById('data').value = ''
         document.getElementById('descrição').value = ''
@@ -33,7 +33,7 @@ function adicionarnot() {
         i++
     }
 
-    if (edit > -1 ) {
+    if (edit > -1) {
         dias[edit] = inteiro[2]
         meses[edit] = inteiro[1]
         anos[edit] = inteiro[0]
