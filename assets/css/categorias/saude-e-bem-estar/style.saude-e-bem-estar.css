@@ -415,3 +415,10 @@ a {
     padding-left: 0 !important;
 
 }
+
+@media screen and (max-width: 600px) {
+    .title_noticias {
+        padding-left: 0 !important;
+        margin-left: -200px;
+    }
+}
