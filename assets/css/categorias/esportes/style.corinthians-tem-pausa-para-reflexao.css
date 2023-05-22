@@ -323,13 +323,13 @@ h3 {
         width: 740px;
     }
     #pai_principal {
-       display: flex;
-       flex-direction: column;
+       width: 100px;
     }
     .pai_depoimento {
         display: flex;
         flex-direction: column;
         font-size: 30px;
+        width: 100px;
     }
      .text_noticias {
         display: flex;
