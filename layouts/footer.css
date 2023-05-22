@@ -137,4 +137,17 @@ input[type="text"],textarea{
     .colfooter{
       margin: 0;
       }
+      #footer {
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+    .main_footer_copy{
+        padding: 0;
+    }
+    .main_footer{
+      width: 100%;
+    }
   }
