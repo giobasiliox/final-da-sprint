@@ -212,7 +212,7 @@ input {
   
 h1{
 
-  margin-left: 300%;
+  margin-left: 280%;
   font-size: 14px;
   margin-top: 10%;
   
@@ -228,9 +228,13 @@ h1{
     margin-left: 0%;
   }
   .search-box{
-    margin-top: 13%;
+    margin-top: 10%;
     margin-left: -110%;
    display: flex;
   }
+  #mots{
+    margin-left: 10%;
+  }
+
 
 }
