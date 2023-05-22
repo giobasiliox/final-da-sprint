@@ -124,3 +124,9 @@ body {
     text-align: center;
     margin-left: 180px;
 }
+
+@media screen and (max-width:600px) {
+    #div_gif {
+        margin-left: 0px;
+        }
+}
