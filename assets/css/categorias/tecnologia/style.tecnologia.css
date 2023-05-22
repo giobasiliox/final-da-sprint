@@ -528,10 +528,17 @@ a {
     #section_imgsobrenos{
     padding: 0;
     }
+    .section_sobrenos{
+        margin: 0;
+        width: 96%;
+    }
     p{
         width: 100%;
     }
     #div_sobrenos1{
         width: 100%;
+    }
+    #teste{
+        width: 50%;
     }
 }
