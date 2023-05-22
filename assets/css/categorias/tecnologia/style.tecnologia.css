@@ -491,4 +491,27 @@ a {
     .section_noticias{
         width: 93%;
     }
+    #texto-central {
+        text-align: center;
+    }
+    #section_background {
+        background-image: url("../../../images/tecnologia/tecnologiabanner.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+        padding: 0;
+    }
+    h1{
+        padding: 5%;
+        text-align: center;
+        margin: 0;
+    }
+    #section_credits{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-left: 5%;
+    }
 }
