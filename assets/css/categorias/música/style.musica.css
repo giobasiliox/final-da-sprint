@@ -314,9 +314,7 @@ a {
             margin: 0;
             height: 1000px;
         }
-        #section_background{
-            width: 50%;
-        }
+
         .section_noticias{
             width: 93%;
         }
@@ -327,12 +325,11 @@ a {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            width: 245%;
+            width: 100%;
             height: 300px;
-            padding: 0;
         }
         .paragrafos{
-            width: 245%;
+            width: 90%;
             margin-left: 5%;
             font-size: 20px;
         }
@@ -367,8 +364,8 @@ a {
         }
         .section_sobrenos1{
             margin: 0;
-            margin-left: -8%;
-            width: 240%;
+            margin-left: 5%;
+            width: 90%;
 
         }
         p{
@@ -385,12 +382,12 @@ a {
         
         }
         .section_noticias{
-            width: 220%;
+            width: 100%;
             padding: 2%;
             margin-left: 10%;
         }
         #artprinc{
-            width: 220%;
+            width: 100%;
             padding: 2%;
         }
         #div_sobrenos{
