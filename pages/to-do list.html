@@ -1,29 +1,26 @@
-<script src="../assets/js/to-do.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog To-Do List</title>
+  <script src="../assets/javascript/todolist.js"></script>
+  <link rel="stylesheet" href="../assets/css/todolist.css">
+</head>
+<body>
+ <h1>Programação para publicação de matérias.</h1>
 
-<div>
-    <label>titulo</label>
-    <input type="text" id="titulo">
-</div>
-<br>
-<div>
-    <label>data</label>
-    <input type="date" id="data">
-</div>
-<br>
-<div>
-    <label>descrição</label>
-    <input type="text" id="descrição">
-</div>
-<br>
-<div>
-    <label>autor</label>
-    <input type="text" id="autor">
-</div>
-<br>
-<div>
-    <button onclick="adicionarnot()">add</button>
-</div>
+  <form id="formulario">
+    <label id="desc">Defina o título:</label>
+    <input type="text" id="titleInput" placeholder="Título" required>
+    <label id="desc">Determine a data da publicação:</label>
+    <input type="date" id="dateInput" required>
+    <label id="desc">Coloque uma breve descrição do artigo:</label>
+    <textarea id="descriptionInput" placeholder="Descrição" required></textarea>
+    <label id="desc">Insira o nome do retador autor:</label>
+    <input type="text" id="authorInput" placeholder="Autor" required>
+    <button type="button" onclick="addItem()" id="butao">Adicionar</button>
+  </form>
 
-<article id="todos">
+  <div id="todoList"></div>
 
-</article>
+</body>
+</html>
