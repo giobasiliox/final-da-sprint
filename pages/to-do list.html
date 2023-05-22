@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog To-Do List</title>
+  <script src="../assets/javascript/todolist.js"></script>
+  <link rel="stylesheet" href="../assets/css/todolist.css">
+</head>
+<body>
+ <h1>Programação para publicação de matérias.</h1>
 
+  <form id="formulario">
+    <label id="desc">Defina o título:</label>
+    <input type="text" id="titleInput" placeholder="Título" required>
+    <label id="desc">Determine a data da publicação:</label>
+    <input type="date" id="dateInput" required>
+    <label id="desc">Coloque uma breve descrição do artigo:</label>
+    <textarea id="descriptionInput" placeholder="Descrição" required></textarea>
+    <label id="desc">Insira o nome do retador autor:</label>
+    <input type="text" id="authorInput" placeholder="Autor" required>
+    <button type="button" onclick="addItem()" id="butao">Adicionar</button>
+  </form>
+
+  <div id="todoList"></div>
+
+</body>
+</html>
