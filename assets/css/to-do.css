@@ -1,31 +1,55 @@
 body {
     font-family: Arial, sans-serif;
-
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
-label {
-    font-weight: bold;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(92, 121, 146);
+    color: white;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
- 
 
-#kkkk {
-    text-align: center;
-    background-color: rgb(92, 121, 146);
-    width: 42%;
-    margin-left: 30%;
-    color: white;
-    margin-bottom: 3%;
-    border-radius: 15px;
-    padding-bottom: 1%;
-    padding-top: 1%;
+#formulario {
 
+    padding-right: 3%;
+    margin-top: 3%;
+    -webkit-box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
 
+}
+
+#desc {
+
+    font-family: Berlin Sans FB;
+
+}
+
+#ft{
+    margin: -3%;
+    margin-top: 5%;
+}
+#hd{
+    margin: -3%;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 input[type="text"],
-input[type="date"] {
+input[type="date"],
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -33,12 +57,29 @@ input[type="date"] {
     margin-bottom: 10px;
 }
 
-#formulario {
-    background-color: #f2f2f2;
-    padding-right: 3%;
-    padding-left: 1%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+
+#titleInput {
+
+    margin-bottom: 3%;
+
+}
+
+#dateInput {
+
+    margin-bottom: 3%;
+
+}
+
+#descriptionInput {
+
+    margin-bottom: 3%;
+
+}
+
+#descriptionInput {
+
+    margin-bottom: 3%;
+
 }
 
 button {
@@ -50,11 +91,16 @@ button {
     cursor: pointer;
 }
 
-#todos {
-    margin-top: 20px;
+button.editButton {
+    background-color:rgb(92, 121, 146);
+    margin-right: 5px;
 }
 
-section {
+button.deleteButton {
+    background-color: #f44336;
+}
+
+.item {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -62,36 +108,20 @@ section {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1,
-h5,
-p,
-h4 {
-    margin: 0;
+.item h3 {
+    margin-top: 0;
 }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-h5 {
-    font-size: 14px;
-    color: #777;
+.item p {
     margin-bottom: 5px;
-}
-
-p {
-    margin-bottom: 5px;
-}
-
-h4 {
-    font-size: 16px;
 }
 #butao{
-    background-color: rgb(92, 121, 146);
-}
 
-button.deleteButton {
-    background-color: #f44336;
-    margin-right: 5px;
+    background-color: rgb(92, 121, 146) ;
+
+}
+div{
+    -webkit-box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
 }
