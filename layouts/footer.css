@@ -133,3 +133,8 @@ input[type="text"],textarea{
     margin: 0;
     padding: 0;
   }
+  @media(max-width: 678px){
+    .colfooter{
+      margin: 0;
+      }
+  }
