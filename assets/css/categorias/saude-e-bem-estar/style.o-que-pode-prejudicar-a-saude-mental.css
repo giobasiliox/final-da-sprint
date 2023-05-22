@@ -10,7 +10,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
     text-align: justify;
-    font-size: 26px;
 }
 
 body {
@@ -120,7 +119,6 @@ body {
 .p_1{
     text-align: center;
     color: aliceblue;
-    font-size: 26px;
 }
 
 #text_credits {
