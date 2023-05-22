@@ -4,8 +4,6 @@
     background-size: 100% ;
     color: rgb(255, 255, 255);
     width: 100%;
-    
-
 }
 
 #texto-central {
@@ -73,11 +71,10 @@ body {
 }
 
 #title_sobrenos {
-    text-align: center;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
     width: 50%;
+    text-align: justify;
 }
 
 .section_membros {
@@ -158,4 +155,12 @@ body {
 
 #section_credits {
     margin-left: 365px;
+    margin-right: 300px;
+}
+#pa01 {
+    text-align: center;
+}
+#pa02 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
