@@ -514,4 +514,7 @@ a {
         text-align: center;
         margin-left: 5%;
     }
+    p{
+        margin: 0;
+    }
 }
