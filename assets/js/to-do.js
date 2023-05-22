@@ -61,3 +61,14 @@ var dias = []
 var meses = []
 var anos = []
 
+function deletar(x) {
+    dias[x] = ''
+    meses[x] = ''
+    anos[x] = ''
+    titulos[x] = ''
+    datas[x] = ''
+    descricoes[x] = ''
+    autores[x] = ''
+    text[x] = ''
+    document.getElementById(`noticia${x}`).style.display = 'none'
+}
