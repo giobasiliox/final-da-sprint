@@ -72,3 +72,14 @@ function deletar(x) {
     text[x] = ''
     document.getElementById(`noticia${x}`).style.display = 'none'
 }
+
+function editar(y) {
+    document.getElementById('titulo').value = titulos[y]
+    document.getElementById('data').value = datas[y]
+
+    document.getElementById('descrição').value = descricoes[y]
+    document.getElementById('autor').value = autores[y]
+    edit = y
+
+    text[y] = `<section id="noticia${y}"><h1>Titulo: ${titulos[y]}</h1><h5>Data: ${datas[y]}</h5><p>Descrição: ${descricoes[y]}</p><h4>Autor: ${autores[y]}</h4><button onclick="deletar(${y})">deletar</button><button onclick="editar(${y})">editar</button><hr></section>`
+}
