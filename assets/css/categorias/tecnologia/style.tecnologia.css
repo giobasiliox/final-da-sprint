@@ -532,6 +532,10 @@ a {
         margin: 0;
         width: 96%;
     }
+    .section_sobrenos1{
+        margin: 0;
+        width: 96%;
+    }
     p{
         width: 100%;
     }
@@ -539,6 +543,6 @@ a {
         width: 100%;
     }
     #teste{
-        width: 50%;
+        width: 60%;
     }
 }
