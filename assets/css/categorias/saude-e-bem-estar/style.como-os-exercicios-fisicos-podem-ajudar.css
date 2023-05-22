@@ -127,7 +127,7 @@ body {
 
 @media (max-width:780px) {
     p {
-        font-size: 16px;
+        font-size: 20px;
     }
     #header {
         width:100%;
@@ -145,12 +145,14 @@ body {
     .section_sobrenos {
         margin-right:0;
         margin-left:0;
-        margin-left:24.5%;
+        margin:0;
+        width:95%;
     }
     .section_sobrenos1 {
         margin-left:0;
         margin-right:0;
-        margin-left:24.5%;
+        margin:0;
+        width:95%;
     }
     * {
         margin:0%;
