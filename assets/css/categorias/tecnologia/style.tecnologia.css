@@ -312,6 +312,7 @@ box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
     padding-left: 15px;
     width: 940px;
     margin-left: 150px;
+    
 }
 
 .img_noticias {
@@ -558,5 +559,8 @@ a {
     }
     .main_footer_copy{
         padding: 0;
+    }
+    iframe{
+        height: 950px;
     }
 }
