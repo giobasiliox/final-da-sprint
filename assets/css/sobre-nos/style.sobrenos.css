@@ -266,3 +266,20 @@ body {
     color: white;
     transform: rotateY(180deg);
 }
+@media (max-width: 700px) {
+    
+    .div_membros{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    #ft{
+        width: 122%;
+        padding: 0%;
+        margin: -9%;
+        margin-top: 25%;
+       height: 100%;
+        
+    }
+
+}
