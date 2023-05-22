@@ -486,11 +486,7 @@ a {
         margin: 0;
     }
     #section_background{
-        width: 120%;
-    }
-    #texto-central{
-        padding-left: 0%;
-        font-size: medium;
+        width: 100%;
     }
     .section_noticias{
         width: 93%;
