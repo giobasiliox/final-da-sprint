@@ -144,3 +144,9 @@ body {
     margin-left: 365px;
     margin-left: 320px;
 }
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 20px;
+    }
+}
