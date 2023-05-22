@@ -169,5 +169,6 @@ body {
 #arr1 {
     display: flex;
     flex-direction: column;
+    
 }
 }
