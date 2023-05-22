@@ -32,11 +32,12 @@ h1 {
 
 }
 
-#ft{
+#ft {
     margin: -3%;
     margin-top: 5%;
 }
-#hd{
+
+#hd {
     margin: -3%;
 }
 
@@ -45,6 +46,7 @@ form {
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+    
 }
 
 input[type="text"],
@@ -92,7 +94,7 @@ button {
 }
 
 button.editButton {
-    background-color:rgb(92, 121, 146);
+    background-color: rgb(92, 121, 146);
     margin-right: 5px;
 }
 
@@ -115,13 +117,68 @@ button.deleteButton {
 .item p {
     margin-bottom: 5px;
 }
-#butao{
 
-    background-color: rgb(92, 121, 146) ;
+#butao {
+
+    background-color: rgb(92, 121, 146);
 
 }
-div{
+
+div {
     -webkit-box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 22px 15px 24px -10px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 700px) {
+    
+#hd{
+    width: 122%;
+    padding: 0;
+    margin: -10%;
+}
+#ft{
+    width: 122%;
+    padding: 0%;
+    margin: -10%;
+    margin-top: 5%;
+    height: 1000px;
+}
+form{
+
+    width: 112%;
+    padding-right: 12%;
+    margin-left: -12%;
+
+}
+#desc{
+    margin-left: 5%;
+}
+#titleInput{
+    width: 90%;
+    margin-left: 5%;
+   
+}
+#dateInput{
+    width: 90%;
+    margin-left: 5%;
+}
+#descriptionInput{
+    width: 90%;
+    margin-left: 5%;
+}
+#authorInput{
+    width: 90%;
+    margin-left: 5%;
+}
+#butao{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+h1{
+    width: 80%;
+    margin-left: 16%;
+    font-size: 22px;
+}
+
 }
