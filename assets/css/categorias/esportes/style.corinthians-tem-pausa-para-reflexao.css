@@ -318,12 +318,14 @@ h3 {
     font-size: 12px;
     color: gray;
 }
-@media screen and (max-width:601px) {
+@media screen and (max-width:600px) {
     .section_noticias {
         width: 740px;
     }
     #pai_principal {
        width: 100px;
+       flex-direction: column;
+       display: flex;
     }
     .pai_depoimento {
         display: flex;
