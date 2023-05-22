@@ -225,3 +225,90 @@ p {
     margin-left: 45px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media(max-width: 678px) {
+    #header{
+        width: 100%;
+        padding: 0;
+    }
+    #footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 950px;
+    }
+    #section_background{
+        width: 100%;
+    }
+    .section_noticias{
+        width: 95%;
+        padding: 0;
+    }
+    #texto-central {
+        text-align: center;
+    }
+    #section_background {
+        background-image: url("../../../images/tecnologia/tecnologiabanner.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+        padding: 0;
+    }
+    h1{
+        padding: 5%;
+        text-align: center;
+        margin: 0;
+    }
+    #section_credits{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-left: 5%;
+    }
+    #div_sobrenos{
+        width: 100%;
+        flex-direction: column;
+    }
+    #img_1{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    
+    }
+    #section_imgsobrenos{
+    padding: 0;
+    }
+    .section_sobrenos{
+        margin: 0;
+        width: 96%;
+    }
+    .section_sobrenos1{
+        margin: 0;
+        width: 96%;
+    }
+    p{
+        width: 100%;
+    }
+    #div_sobrenos1{
+        width: 100%;
+    }
+    #teste{
+        width: 60%;
+    }
+    .colfooter{
+    margin: 0;
+    }
+    .titleFooter{
+        margin: 0;
+    }
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+    .main_footer_copy{
+        padding: 0;
+    }
+}
