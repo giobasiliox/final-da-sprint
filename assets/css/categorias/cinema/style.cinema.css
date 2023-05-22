@@ -155,7 +155,7 @@ body {
 
 #section_credits {
     margin-left: 365px;
-    margin-right: 300px;
+    margin-right: px;
 }
 #pa01 {
     text-align: center;
@@ -163,4 +163,11 @@ body {
 #pa02 {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 601px){
+#arr1 {
+    display: flex;
+    flex-direction: column;
+}
 }
