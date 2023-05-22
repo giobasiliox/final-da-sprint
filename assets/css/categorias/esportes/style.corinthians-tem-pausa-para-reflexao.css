@@ -322,8 +322,12 @@ h3 {
     .section_noticias {
         width: 740px;
     }
-    .pai_depoimento {
+    #pai_principal {
        flex-direction: column;
        display: flex;
+    }
+    .pai_depoimento {
+        display: flex;
+        flex-direction: column;
     }
 }
