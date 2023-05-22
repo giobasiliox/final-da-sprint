@@ -139,3 +139,12 @@ body {
 #section_credits {
     margin-left: 365px;
 }
+
+@media screen and (max-width: 600px) {
+    #header {
+        height: 150px;
+        }
+    p {
+        font-size: 20px;
+    }
+}
