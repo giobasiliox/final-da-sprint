@@ -8,7 +8,7 @@ p {
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    font-size:medium;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -25,7 +25,7 @@ body {
 
 #section_imgsobrenos {
     text-align: center;
-    padding-top:80px;
+    padding-top: 80px;
 }
 
 .section_sobrenos {
@@ -93,7 +93,7 @@ body {
 #title_membros {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top:80px;
+    padding-top: 80px;
 }
 
 
@@ -115,12 +115,52 @@ body {
     text-align: center;
 }
 
-.p_1{
+.p_1 {
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
-#div_gif{
+#div_gif {
     text-align: center;
     margin-left: 180px;
+}
+
+@media (max-width:780px) {
+    p {
+        font-size: 20px;
+    }
+    #header {
+        width:100%;
+    }
+    #footer {
+        width:100%;
+        margin:0;
+        height:1000px;
+        margin-bottom:-5px;
+    }
+    #section_background {
+        width:100%;
+        margin-right:0;
+    }
+    .section_sobrenos {
+        margin-right:0;
+        margin-left:0;
+        margin:0;
+        width:95%;
+    }
+    .section_sobrenos1 {
+        margin-left:0;
+        margin-right:0;
+        margin:0;
+        width:95%;
+    }
+    * {
+        margin:0%;
+    }
+    body {
+        width: 100%;
+    }
+    #div_sobrenos {
+        flex-direction:column;
+    }
 }
