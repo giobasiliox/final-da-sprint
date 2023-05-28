@@ -281,5 +281,44 @@ body {
        height: 100%;
         
     }
+    .arti{
+        width: 100%;
+        text-align: justify;
+    }
+    #div_sobrenos{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: justify;
+       
+    }
+    .p{
+        text-align: justify;
+        width: 100%
+    }
+        #img01{
+            width: 70%;
+            margin-left: 15%;
 
+           
+        }
+        .section_sobrenos{
+            width: 90%;
+            text-align: justify;
+        }
+        .section_sobrenos1{
+            width: 90%;
+            text-align: justify;
+        }
+        #aff{
+            height: 3%;
+        }
+        #nois{
+            margin-left: 4%;
+        }
+        #section_background{
+            width: 100%;
+            padding: auto;
+            height: 200%;
+        }
 }
