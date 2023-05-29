@@ -303,4 +303,9 @@ a {
     margin: 0;
     height: 1150px;
 }
+#div_pqserve{
+    display: flex;
+    flex-direction: column;
+}
+
 }
