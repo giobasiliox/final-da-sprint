@@ -223,6 +223,9 @@ a {
     font-family: arial;
     padding-bottom: 20px;
 }
+.title_categorias{
+    margin-left: 3%;
+}
 @media (max-width: 700px) {
 
     #section_credits{
@@ -249,10 +252,11 @@ a {
 
 }
 .section_noticias{
-    width: 88%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: -4%;
 }
 #estreilas{
     display: flex;
@@ -290,5 +294,8 @@ a {
 }
 .section_oqueé{
     width: 90%;
+}
+.title_categorias{
+    margin-left: 23%;
 }
 }
