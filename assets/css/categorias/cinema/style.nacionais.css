@@ -175,4 +175,9 @@ p {
         height: 1150px;
         margin-bottom: -2000px;
     }
+    #containerArticle {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1px;
+    }
 }
