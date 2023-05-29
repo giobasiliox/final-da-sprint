@@ -409,20 +409,34 @@ padding-right: 4%;
 }
 .p_text {
     font-size: 20px;
+    width: 120%;
+   
 }
 #text_1 {
     font-size: 20px;
+width: 70%;
+height: 40;
 }
 #text_date {
     font-size: 20px;
 }
 .text_publicado {
-    padding-right: -3%;
+    padding-left: 50%;
+
 }
 .text_date {
     padding-right: 4%;
     margin-right: 4%;
 
 }
-
+.section_sobrenos {
+    width: 120%;
+}
+.section_sobrenos1 {
+    width: 120%;
+    padding-right: 4%;
+}
+#section_imgsobrenos {
+    width: 120%;
+}
 }
