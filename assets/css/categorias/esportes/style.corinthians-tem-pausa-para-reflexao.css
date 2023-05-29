@@ -273,7 +273,7 @@ h3 {
 }
 @media screen and (max-width:600px) {
     #header {
-        width: 100%;
+        width: 130%;
        padding: 0;
     }
     #text_credits {
@@ -339,10 +339,10 @@ padding-right: 4%;
 }
 .title_categorias{
     margin: 0%;
-    display: flex;
+    margin-right: 0%;
 }
 .section_noticias {
-    width: 74%;
+    width: 84%;
     padding-left: 30%;
     margin-left: 5%;
   
@@ -366,4 +366,11 @@ padding-right: 4%;
 #text_date {
     font-size: 20px;
 }
+.text_publicado {
+    padding-right: -43%;
+}
+.text_date {
+    padding-right: 3%;
+}
+
 }
