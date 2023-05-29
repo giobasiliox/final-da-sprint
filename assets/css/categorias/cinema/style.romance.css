@@ -189,7 +189,7 @@ p {
     #section_1 {
         display: flex;
         flex-direction: column; 
-        margin-top: -400px;  
+        margin-top: -300px;  
     }
     .flip_card {
         margin-top: 70%;
