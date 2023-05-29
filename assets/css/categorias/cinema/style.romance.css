@@ -46,7 +46,7 @@
     width: 250px;
 
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .fçip_card_front {
@@ -75,7 +75,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -87,7 +87,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -98,7 +98,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -111,7 +111,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -122,7 +122,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -133,7 +133,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -145,7 +145,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 
@@ -156,7 +156,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-radius: 20px;
 }
 * {
@@ -169,4 +169,38 @@ p {
 #containerArticle {
     margin-top: -100px;
     margin-left: 90px;
+}
+
+@media screen and (max-width:700px){
+    #header {
+        width:100%;
+        padding:0px;
+    }
+    #footer {
+        width: 100%;
+        height: 1150px;
+        margin-bottom: -2000px;
+    }
+    #containerArticle {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1px;
+    }
+    #section_1 {
+        display: flex;
+        flex-direction: column; 
+        margin-top: -300px;  
+    }
+    .flip_card {
+        margin-top: 70%;
+    }
+    #section_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -300px;
+        margin-bottom: -600px;
+    }
+    #pa5 {
+        font-size: 12px;   
+       }
 }
