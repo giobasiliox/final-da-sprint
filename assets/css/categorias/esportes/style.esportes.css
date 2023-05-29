@@ -325,3 +325,55 @@ a {
     font-size: 12px;
     color: gray;
 }
+@media screen and (max-width:600px) {
+    #header {
+        width: 100%;
+        padding: 0;
+    }
+    #text_credits {
+        margin-right: 98%;
+        text-align: center;
+        font-size: 20px;
+    }
+    #article25 {
+        margin-left: -50%;
+    }
+#esportes_gif {
+    margin-right: -40%;
+}
+.section_noticias {
+    width: 70%;
+    padding: 12%;
+  
+}
+.img_textN{
+    display: flex;
+    flex-direction: column;
+}
+.icon_text{
+    margin-left: -70%;
+}
+#article_comentarios{
+    width: 85%;
+    margin-left: 4%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+  #fm{
+    width: 85%;
+  }
+  .borda_comentarios{
+    width: 129%;
+  }
+  #pai_principal {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 1150px;
+    
+}
+}
