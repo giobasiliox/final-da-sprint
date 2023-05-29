@@ -211,10 +211,7 @@ input {
   border-bottom:1px solid rgba(255,255,255,.5);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
-hr{
-  height: 70px;
-  margin-top: -5%;
-}
+
 @media (max-width: 700px){
   
 h1{
@@ -238,6 +235,7 @@ h1{
     margin-top: 10%;
     margin-left: -130%;
    display: flex;
+   margin-bottom: 3%;
   }
   #mots{
     margin-left: 10%;
