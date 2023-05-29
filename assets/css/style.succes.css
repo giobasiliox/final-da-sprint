@@ -78,4 +78,36 @@ button {
     margin-top: -5px;
     margin-bottom: -50px;
 }
+@media(max-width: 678px){
+    #header{
+        width: 100%;
+        padding: 0;
+    }
+    #footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 1150px;
+    }
+ 
+    h1{
+        text-align: center;
+    }
+    .colfooter{
+    margin: 0;
+    }
+    .titleFooter{
+        margin: 0;
+    }
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+    .main_footer_copy{
+        padding: 0;
+    }
+    h3{
+        margin-top: 20%;
+    }
+}
         
