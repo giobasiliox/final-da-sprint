@@ -194,4 +194,13 @@ p {
     .flip_card {
         margin-top: 70%;
     }
+    #section_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -200px;
+        margin-bottom: -600px;
+    }
+    #pa1{
+     font-size: 12px;   
+    }
 }
