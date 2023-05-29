@@ -221,7 +221,7 @@ a {
 .class_h3 {
     margin-left: 45px;
 }
-@media(max-width: 678px) {
+@media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header{
         width: 100%;
         padding: 0;
@@ -308,5 +308,16 @@ a {
     }
     *{
         font-size: 20px;
+    }
+    .stars{
+        width: 100%;
+        display: flex;
+        padding-right: 5%;
+    }
+    .text_publicado{
+        padding: 0;
+    }
+    .title_categorias{
+        margin: 0;
     }
 }
