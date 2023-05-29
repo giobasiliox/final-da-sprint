@@ -252,7 +252,7 @@ a {
 
 }
 .section_noticias{
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,7 +266,7 @@ a {
 .icon_text{
     display: flex;
     flex-direction: column;
-   margin-left: -15%;
+   margin-left: -18%;
 }
 .text_date{
     margin-left: 41%;
