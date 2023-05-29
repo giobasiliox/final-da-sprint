@@ -286,5 +286,27 @@ a {
     margin: 0;
     height: 1150px;
 }
+.section_oqueé{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 2%;
+}
+#div_oqueé{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+#img_chapeu{
+ width: 124%;
+ margin-left: -10%;
+ margin-top: 5%;
+}
+.section_oqueé2{
+    width: 90%;
+}
+#div_oqueé2{
+    width: 90%;
+}
 }
 
