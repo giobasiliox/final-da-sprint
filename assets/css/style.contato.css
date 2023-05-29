@@ -117,7 +117,7 @@ p {
     padding-left: 800px;
     margin-top: -90px;
 }
-@media(max-width: 678px){
+@media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header{
         width: 100%;
         padding: 0;
@@ -146,9 +146,30 @@ p {
         padding: 0;
     }
     h3{
-        margin-top: 20%;
+        margin: 0;
+        padding: 0;
     }
     *{
         font-size: 20px;
+    }
+    p{
+        padding: 0;
+    }
+    #teste{
+        width: 80%;
+        margin: 0;
+        padding-bottom: 15%;
+    }
+    input{
+        margin: 0;
+    }
+    form{
+        margin: 0;
+        width: 100%;
+        padding-left: 15%;
+        padding-top: 10%;
+    }
+    #enviar{
+        width: 50%;
     }
 }
