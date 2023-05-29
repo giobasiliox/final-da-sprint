@@ -306,4 +306,7 @@ a {
     .main_footer_copy{
         padding: 0;
     }
+    *{
+        font-size: 20px;
+    }
 }
