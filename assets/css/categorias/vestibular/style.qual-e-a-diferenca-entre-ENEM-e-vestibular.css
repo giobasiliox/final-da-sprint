@@ -222,6 +222,9 @@ a {
 #ari{
     margin-left: 11%;
 }
+.title_categorias{
+    margin-left: 3%;
+}
 @media (max-width: 700px) {
 
     #section_credits{
@@ -247,10 +250,11 @@ a {
 
 }
 .section_noticias{
-    width: 88%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: -4%;
 }
 #estreilas{
     display: flex;
@@ -285,5 +289,11 @@ a {
     padding: 0;
     margin: 0;
     height: 1150px;
+}
+hr{
+    margin-left: -13%;
+}
+.title_categorias{
+    margin-left: 23%;
 }
 }
