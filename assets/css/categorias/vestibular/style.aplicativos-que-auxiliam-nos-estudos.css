@@ -276,6 +276,9 @@ a {
 #ari{
     margin-left: 11%;
 }
+.title_categorias{
+    margin-left: 3%;
+}
 @media (max-width: 700px) {
 
     #section_credits{
@@ -301,10 +304,11 @@ a {
 
 }
 .section_noticias{
-    width: 88%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: -4%;
 }
 #estreilas{
     display: flex;
@@ -315,6 +319,7 @@ a {
     display: flex;
     flex-direction: column;
    margin-left: -15%;
+   color: black;
 }
 .text_date{
     margin-left: 41%;
@@ -350,6 +355,9 @@ a {
     width: 98%;
     margin-left: 5%;
     margin-bottom: 15%;
+}
+.title_categorias{
+    margin-left: 23%;
 }
 }
 
