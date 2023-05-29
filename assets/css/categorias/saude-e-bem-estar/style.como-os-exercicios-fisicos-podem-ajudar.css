@@ -134,8 +134,7 @@ body {
     }
     #footer {
         width:100%;
-        margin:0;
-        height:1000px;
+        height:1100px;
         margin-bottom:-5px;
     }
     #section_background {
@@ -146,13 +145,14 @@ body {
         margin-right:0;
         margin-left:0;
         margin:0;
-        width:95%;
+        width:100%;
+        padding:0;
     }
     .section_sobrenos1 {
         margin-left:0;
         margin-right:0;
-        margin:0;
-        width:95%;
+        width:100%;
+        padding:0;
     }
     * {
         margin:0%;
@@ -162,5 +162,14 @@ body {
     }
     #div_sobrenos {
         flex-direction:column;
+    }
+    #section_background {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:300px;
+    }
+    #section_imgsobrenos {
+        padding-top:0;
     }
 }

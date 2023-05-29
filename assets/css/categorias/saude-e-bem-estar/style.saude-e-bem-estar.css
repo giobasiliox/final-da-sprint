@@ -424,20 +424,20 @@ a {
     }
     #footer {
         width:100%;
-        height:1000px;
+        height:1100px;
     }
 
     .section_sobrenos {
         margin-left:0;
         margin-right:0;
-        width:95%;
+        width:100%;
         padding:0;
     }
 
     .section_sobrenos1 {
         margin-left:0;
         margin-right:0;
-        width:95%;
+        width:100%;
         padding:0;
     }
 
@@ -446,7 +446,7 @@ a {
         margin-right:0;
     }
     #texto-central {
-        width:100%;
+        width:96%;
     }
 
     #div_sobrenos {
@@ -457,6 +457,26 @@ a {
         margin-left: 0;
     }
     .section_noticias {
-        width:100%  ;
+        width:96%  ;
+        margin-left:0;
+        flex-direction: column;
+    }
+    .img_textN {
+        flex-direction: column;
+    }
+    .text_publicado {
+        padding-left:0;
+    }
+    .title_categorias {
+        margin-right:0;
+    }
+    #section_background {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:300px;
+    }
+    #section_imgsobrenos {
+        padding-top:0;
     }
 }

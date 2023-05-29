@@ -9,7 +9,7 @@ p {
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    font-size:medium;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -17,7 +17,7 @@ p {
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: Arial;
-    font-size:medium;
+    font-size: medium;
     text-align: justify;
     padding-bottom: -60px;
 }
@@ -34,7 +34,7 @@ body {
 
 #section_imgsobrenos {
     text-align: center;
-    padding-top:80px; 
+    padding-top: 80px;
 }
 
 .section_sobrenos {
@@ -100,7 +100,7 @@ body {
 #title_membros {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top:80px;
+    padding-top: 80px;
 }
 
 .section_membros:hover {
@@ -114,11 +114,11 @@ body {
     margin-right: 50px;
     transition: 2s;
     transform: scale(1.1);
-    -webkit-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.75);
 }
- 
+
 #img_1 {
     padding-left: 10px;
 }
@@ -159,10 +159,6 @@ box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
 .text_publicado {
     padding-left: 205px;
     padding-bottom: 15px;
-}
-
-.icon_text {
-    display: flex;
 }
 
 .img_stars {
@@ -206,7 +202,7 @@ a {
     margin-bottom: 20px;
     margin-left: 45px;
 }
- 
+
 .class_h3 {
     margin-left: 45px;
     font-family: arial;
@@ -303,106 +299,148 @@ a {
     padding-left: 5px;
 }
 
-@media (max-width: 600px){
-        #header{
-            width: 100%;
-            padding: 0;
-        }
-        #footer{
-            width: 100%;
-            padding: 0;
-            margin: 0;
-            height: 1150px;
-        }
+@media (max-width: 600px) {
+    #header {
+        width: 100%;
+        padding: 0;
+    }
 
+    #footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 1150px;
+    }
+
+    .section_noticias {
+        width: 93%;
+    }
+
+    #texto-central {
+        text-align: center;
+    }
+
+    #section_background {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+    }
+
+    .paragrafos {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    h1 {
+        padding: 5%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #section_credits {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    #div_sobrenos {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #img_1 {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #section_imgsobrenos {
+        padding: 0;
+    }
+
+    .section_sobrenos {
+        margin: 0;
+        width: 96%;
+    }
+
+    .section_sobrenos1 {
+        margin: 0;
+        margin-left: 5%;
+        width: 90%;
+
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #div_sobrenos1 {
+        width: 100%;
+    }
+
+    #teste {
+        width: 60%;
+    }
+
+    #article_comentarios {
+        width: 0%;
+
+    }
+
+    .section_noticias {
+        width: 100%;
+        padding: 2%;
+        margin-left: 10%;
+    }
+
+    #artprinc {
+        width: 100%;
+        padding: 2%;
+    }
+
+    #div_sobrenos {
+        width: 100%;
+        padding: 2%;
+    }
+
+    #artprinc {
+
+        width: 250%;
+        padding: 2%;
+        align-items: center;
+    }
+
+    #sectioncomentario {
+        width: 30%;
+
+    }
+
+    #section_noticias{
+        width: 100%;
+        padding: 2%;
+        margin-left: 10%;
+        }
+        .title_categorias{
+            margin-right: 0%;
+        }
         .section_noticias{
-            width: 93%;
-        }
-        #texto-central {
-            text-align: center;
-        }
-        #section_background {
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 300px;
-        }
-        .paragrafos{
-            width: 90%;
-            margin-left: 5%;
-            font-size: 20px;
-        }
-        h1{
-            padding: 5%;
-            text-align: center;
-            margin: 0;
-        }
-        #section_credits{
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            margin-left: 5%;
-        }
-        #div_sobrenos{
-            width: 100%;
+            width: 96%;
+            margin-left: 0;
             flex-direction: column;
         }
-        #img_1{
-            width: 100%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-        
+        .img_textN{
+            flex-direction: column;
         }
-        #section_imgsobrenos{
-        padding: 0;
+        .text_publicado{
+            padding-left: 0;
         }
-        .section_sobrenos{
-            margin: 0;
-            width: 96%;
+        .title_categorias{
+            margin-right: 0;
         }
-        .section_sobrenos1{
-            margin: 0;
-            margin-left: 5%;
-            width: 90%;
-
-        }
-        p{
-            width: 100%;
-        }
-        #div_sobrenos1{
-            width: 100%;
-        }
-        #teste{
-            width: 60%;
-        }
-        #article_comentarios{
-            width: 0%;
-        
-        }
-        .section_noticias{
-            width: 100%;
-            padding: 2%;
-            margin-left: 10%;
-        }
-        #artprinc{
-            width: 100%;
-            padding: 2%;
-        }
-        #div_sobrenos{
-            width: 100%;
-            padding: 2%;
-        }
-       
-        #artprinc{
-
-            width: 250%;
-            padding: 2%;
-            align-items: center;
-        }
-        #sectioncomentario{
-            width: 30%;
-
-        }
-    }
+}
