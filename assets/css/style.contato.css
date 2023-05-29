@@ -117,3 +117,38 @@ p {
     padding-left: 800px;
     margin-top: -90px;
 }
+@media(max-width: 678px){
+    #header{
+        width: 100%;
+        padding: 0;
+    }
+    #footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 1100px;
+    }
+ 
+    h1{
+        text-align: center;
+    }
+    .colfooter{
+    margin: 0;
+    }
+    .titleFooter{
+        margin: 0;
+    }
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+    .main_footer_copy{
+        padding: 0;
+    }
+    h3{
+        margin-top: 20%;
+    }
+    *{
+        font-size: 20px;
+    }
+}

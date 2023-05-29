@@ -11,7 +11,7 @@ img {
 
 h1 {
     text-align: center;
-    color: #5e7ba9 font-family: 'Times New Roman', Times, serif;
+    color: #5e7ba9; font-family: 'Times New Roman', Times, serif;
     margin-top: 10px;
 }
 
@@ -77,5 +77,34 @@ button {
     padding: 0;
     margin-top: -5px;
     margin-bottom: -50px;
+}
+@media(max-width: 678px){
+    #header{
+        width: 100%;
+        padding: 0;
+    }
+    #footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 1100px;
+    }
+ 
+    h1{
+        text-align: center;
+    }
+    .colfooter{
+    margin: 0;
+    }
+    .titleFooter{
+        margin: 0;
+    }
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+    .main_footer_copy{
+        padding: 0;
+    }
 }
         
