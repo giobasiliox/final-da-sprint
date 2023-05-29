@@ -337,5 +337,16 @@ a {
     margin: 0;
     height: 1150px;
 }
+.pai_article{
+    width: 90%;
+}
+.section_apps{
+    width: 90%;
+}
+#div_apps{
+    width: 98%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
 }
 
