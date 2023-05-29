@@ -233,6 +233,7 @@ a {
     }
     p{
         text-align: justify;
+        width: 100%;
     }
     .section_diferenca2{
         width: 90%;
@@ -283,5 +284,8 @@ a {
     padding: 0;
     margin: 0;
     height: 1150px;
+}
+.section_oqueé{
+    width: 90%;
 }
 }
