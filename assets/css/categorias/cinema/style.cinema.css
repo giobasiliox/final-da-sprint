@@ -71,10 +71,11 @@ body {
 }
 
 #title_sobrenos {
+    text-align: center;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
     width: 50%;
-    text-align: justify;
 }
 
 .section_membros {
@@ -92,43 +93,15 @@ body {
     box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.75);
 }
 
-#arr1 {
-    display: flex;
-}
-#arr2 {
-    display: flex;
-}
+
 
 .div_membros {
     display: flex;
     text-align: center;
     padding: 20px;
 }
-.div_membros2 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros3 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros4 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros5 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros6 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
+
+
 #title_membros {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -176,60 +149,22 @@ body {
     padding-bottom: 15px;
 }
 
-.text_date {
+.text_credits {
     padding-left: 10px;
     color: gray;
 }
 
 #section_credits {
     margin-left: 365px;
-    margin-right: px;
 }
-#pa01 {
-    text-align: center;
-}
-#pa02 {
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-@media screen and (max-width: 601px){
-#arr1 {
-    display: flex;
-    flex-direction: column;
-}
-.div_membros {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros2 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros3 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-#arr2 {
-    display: flex;
-    flex-direction: column;
-}
-.div_membros4 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros5 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
-.div_membros6 {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-}
+@media screen and (max-width:601px){
+    #header {
+        width:158.5px;
+    }
+    #section_background {
+        width: 158.5px;
+    }
+ #para01 {
+    margin-left: 50px;
+ }
 }
