@@ -78,7 +78,7 @@ button {
     margin-top: -5px;
     margin-bottom: -50px;
 }
-@media(max-width: 678px){
+@media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header{
         width: 100%;
         padding: 0;
