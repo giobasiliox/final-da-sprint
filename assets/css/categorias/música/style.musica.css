@@ -334,9 +334,7 @@ a {
     }
 
     .paragrafos {
-        width: 90%;
-        margin-left: 5%;
-        font-size: 20px;
+        width: 105%;
     }
 
     #section_credits {
@@ -371,14 +369,14 @@ a {
     }
 
     #div_sobrenos1 {
-        width: 100%;
+        width: 90%;
         padding: 2%;
         flex-direction: column;
-        margin-right: 5%;
+    
     }
-    .section_sobrenos1 {
+    .section_sobrenos {
         margin: 0;
-        width: 100%;
+        width: 90%;
 
     }
     #div_sobrenos {
@@ -426,10 +424,11 @@ a {
         margin-bottom: 4%;
     }
     .text_date{
-        margin-left: 40%;
+        margin-left: 35%;
     }
     .img_noticias{
         height: 50%;
+        margin-left: 25%;
     }
     .text_noticias{
         height: 80%;
