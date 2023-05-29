@@ -61,7 +61,7 @@ body {
     display: flex;
     padding: 10px;
 }
-/* ediçao titulo o que é*/
+/* ediçao titulo o que é*/ 
 #title_oqueé {
     text-align: center;
     padding-left: 10px;
@@ -221,7 +221,9 @@ a {
     font-family: arial;
     padding-bottom: 20px;
 }
-
+#ari{
+    margin-left: 12%;
+}
 @media (max-width: 700px) {
 
     #section_credits{
@@ -308,5 +310,6 @@ a {
 #div_oqueé2{
     width: 90%;
 }
+
 }
 
