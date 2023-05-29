@@ -363,7 +363,7 @@ a {
     width: 85%;
   }
   .borda_comentarios{
-    width: 85%;
+    width: 129%;
   }
   #pai_principal {
     display: flex;
@@ -374,5 +374,6 @@ a {
     padding: 0;
     margin: 0;
     height: 1150px;
+    
 }
 }
