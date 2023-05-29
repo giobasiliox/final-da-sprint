@@ -172,5 +172,8 @@ p {
 }
 
 @media screen and (max-width:700px){
-    
+    #header {
+        width:100%;
+        padding:0px;
+    }
 }
