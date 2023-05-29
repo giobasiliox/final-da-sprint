@@ -273,7 +273,7 @@ h3 {
 }
 @media screen and (max-width:600px) {
     #header {
-        width: 100%;
+        width: 130%;
     }
     #text_credits {
         margin-right: 98%;
@@ -337,18 +337,18 @@ padding-right: 4%;
     width: 50%;
 }
 .title_categorias{
-    margin: 0;
+    margin: 0%;
 }
 .section_noticias {
-    width: 80%;
+    width: 120%;
     padding-left: 10%;
     margin-left: 5%;
-    margin: 0;
+  
 }
 #title_membros {
   font-size: 30px;
   padding-left: 35%;
-  margin: 0;
+  
 }
 #section_credits {
     width: 100%;
