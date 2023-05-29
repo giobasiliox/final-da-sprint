@@ -107,7 +107,7 @@ h1 {
 
 #title_membros {
     padding-top: 40px;
-    padding-left: 20px;
+    padding-left: 40px;
     margin-left: -460px;
 }
 
@@ -430,5 +430,8 @@ a {
     }
     .text_noticias{
         height: 80%;
+    }
+#title_membros{
+margin-left: 5%;
     }
 }
