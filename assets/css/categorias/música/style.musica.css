@@ -161,10 +161,6 @@ box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
     padding-bottom: 15px;
 }
 
-.icon_text {
-    display: flex;
-}
-
 .img_stars {
     padding-top: 18px;
     padding-left: 10px;
