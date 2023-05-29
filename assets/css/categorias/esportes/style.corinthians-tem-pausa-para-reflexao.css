@@ -272,23 +272,5 @@ h3 {
     color: gray;
 }
 @media(max-width:600px) {
-    .section_noticias {
-        width: 740px;
-    }
-    #pai_principal {
-       width: 100px;
-       flex-direction: column;
-       display: flex;
-    }
-    .pai_depoimento {
-        display: flex;
-        flex-direction: column;
-        font-size: 30px;
-        width: 100px;
-    }
-     .text_noticias {
-        display: flex;
-        flex-direction: column;
-        font-size: 60px;
-    }
+
 }
