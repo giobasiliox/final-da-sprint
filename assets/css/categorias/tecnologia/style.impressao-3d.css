@@ -398,4 +398,15 @@ a {
     *{
         font-size: 20px;
     }
+    .stars{
+        width: 100%;
+        display: flex;
+        padding-right: 5%;
+    }
+    .text_publicado{
+        padding: 0;
+    }
+    .title_categorias{
+        margin: 0;
+    }
 }
