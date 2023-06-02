@@ -264,6 +264,18 @@ body {
     color: white;
     transform: rotateY(180deg);
 }
+.foto{
+    border-radius: 100%;
+}
+#fotof{
+    height: 56%;
+}
+#fotog{
+    height: 55%;
+}
+#fotov{
+    height: 53%;
+}
 
 @media (max-width: 700px) {
 
