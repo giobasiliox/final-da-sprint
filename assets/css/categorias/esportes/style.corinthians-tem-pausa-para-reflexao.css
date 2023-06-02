@@ -272,9 +272,9 @@ h3 {
     color: gray;
 }
 @media screen and (max-width:600px) {
-    #header {
-        width: 130%;
-       padding: 0;
+    #container {
+        width: 100%;
+        margin: 0;
     }
     #text_credits {
         margin-right: 98%;
@@ -363,12 +363,12 @@ padding-right: 4%;
 .p_text {
     font-size: 20px;
     width: 100%;
-    margin-left: -20%;
+    margin-left: -34%;
 }
 #text_1 {
     font-size: 20px;
     width: 100%;
-    margin-left: 11%;
+    margin-right: 13%;
 }
 #text_date {
     font-size: 20px;
