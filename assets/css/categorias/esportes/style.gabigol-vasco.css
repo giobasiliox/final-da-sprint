@@ -194,3 +194,182 @@ body {
     font-size: 12px;
     color: gray;
 }
+@media screen and (max-width:600px) {
+    #container {
+        width: 100%;
+        margin: 0;
+    }
+
+    #text_credits {
+        text-align: center;
+        font-size: 20px;
+        margin-left: -121px;
+    }
+
+    #text_creditss {
+        margin-left: -110px;
+        font-size: 20px;
+        color: gray;
+    }
+
+
+#article25 {
+    margin-left: -50%;
+}
+
+#esportes_gif {
+    margin-right: -40%;
+}
+
+.img_textN {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_text {
+    flex-direction: column;
+}
+
+#article_comentarios {
+    width: 120%;
+    margin-left: 4%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#fm {
+    width: 85%;
+}
+
+.borda_comentarios {
+    width: 50%;
+}
+
+#pai_principal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    width: 85%;
+}
+
+#footer {
+width: 100%;
+height: 1150px;
+}
+
+#section_background {
+    padding: 40;
+    margin-top: -45%;
+}
+
+#h9 {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 15%;
+}
+
+#div14 {
+    margin-top: 25%;
+    padding-right: 4%;
+}
+
+#ar0 {
+    margin-top: 20%;
+}
+
+#text_credits {
+    margin-top: -50%;
+    width: 50%;
+}
+
+.title_categorias {
+    margin: 0%;
+    margin-right: 0;
+}
+
+.section_noticias {
+    width: 80%;
+    flex-direction: column;
+    padding-right: 6%;
+    margin-left: 5%;
+}
+
+#section_credits {
+    width: 100%;
+    margin-top: 70%;
+    margin-left: 30%;
+}
+
+.p_text {
+    font-size: 20px;
+    width: 310px;
+    margin-left: -97px;
+}
+
+#text_1 {
+    font-size: 20px;
+    width: 310px;
+    margin-left: 18px;
+}
+
+#text_date {
+    font-size: 20px;
+}
+
+.text_publicado {
+    padding-right: -3%;
+    margin-left: 15%;
+}
+
+.text_date {
+    padding-right: 4%;
+    margin-right: 4%;
+
+}
+
+.section_sobrenos {
+    width: 110%;
+}
+
+.section_sobrenos1 {
+    width: 100%;
+    margin-left: 30%;
+}
+
+#div_sobrenos {
+    width: 100%;
+
+}
+
+#div_sobrenos1 {
+    width: 100%;
+
+}
+
+#header {
+    width: 100%;
+    padding: 0px;
+}
+#imagemjogador {
+    width: 90%;
+}
+#title_membros {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+    margin-left: -300px;
+}
+.img_noticias {
+        width: 100%;
+}
+.icon_stars {
+display: flex;
+}
+.text_publicado {
+    margin-left: -190px;
+}
+}
