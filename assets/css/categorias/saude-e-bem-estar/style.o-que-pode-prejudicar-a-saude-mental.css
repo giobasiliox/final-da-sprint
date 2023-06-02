@@ -274,4 +274,7 @@ body {
     .text_noticias{
         height: 80%;
     }
+    .section_sobrenos1 {
+        padding-right:0;
+    }
 }
