@@ -352,6 +352,7 @@ p {
     }
     .text_date{
         margin-left: 35%;
+        margin: 0;
     }
     .img_noticias{
         height: 50%;
