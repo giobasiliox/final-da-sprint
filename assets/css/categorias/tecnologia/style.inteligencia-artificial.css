@@ -320,4 +320,36 @@ a {
     .title_categorias{
         margin: 0;
     }
+    #article_comentarios{
+        width: 85%;
+        margin-left: 4%;
+        margin-top: 8%;
+        margin-bottom: 5%;
+      }
+      #fm{
+        width: 85%;
+      }
+      .borda_comentarios{
+        width: 85%;
+      }
+      .icon_text{
+        display: flex;
+        flex-direction: column;
+       margin-left: 0%;
+    }
+    #estreilas{
+        display: flex;
+        margin-left: 33%;
+        margin-bottom: 4%;
+    }
+    .text_date{
+        margin-left: 35%;
+    }
+    .img_noticias{
+        height: 50%;
+        margin-left: 25%;
+    }
+    .text_noticias{
+        height: 80%;
+    }
 }
