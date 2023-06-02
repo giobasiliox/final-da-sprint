@@ -80,7 +80,14 @@
   input{
     width: 80%;
   }
-  
+  #header{
+    margin: -1%;
+    width: 102%;
+  }
+  #footer{
+    margin: -1%;
+    width: 102%;
+  }
   
 
 @media screen and (max-width: 1100px) {
