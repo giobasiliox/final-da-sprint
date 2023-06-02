@@ -296,6 +296,7 @@ body {
     .arti {
         width: 100%;
         text-align: justify;
+        margin-left: 10%;
     }
 
     #div_sobrenos {
