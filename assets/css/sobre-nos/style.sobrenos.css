@@ -368,4 +368,7 @@ body {
         margin-left: -12%;
         width: 100%;
     }
+   li{
+   margin-left: -2%;
+   }
 }
