@@ -11,7 +11,7 @@
     
 <!--Link da logo para o navegador-->
     
-    <link rel="icon" type="image/x-icon" href="../assets/images/Vestibular/logoc3.jpg">
+    <link rel="icon" type="image/x-icon" href="../assets/images/Vestibular/logoc3.jpg" rel="stylesheet" width="200px" heigth="200px">
     
 <!--Link do css-->
     
@@ -25,30 +25,32 @@
     
 <!--inicio do iframe-->
     
-    <iframe src="./../layouts/header.html" width="100%" frameborder="no" scrolling="0" height="180px"></iframe>
+    <iframe id="header" src="./../layouts/header.html" width="100%" frameborder="no" scrolling="0" height="180px"></iframe>
     
 <!--inicio do titulo-->
     
     <h1>Faça seu cadastro !!!</h1>
-    
-    <form action="../pages/success.html" target="_parent">
-      
-        <label id="label1"> Nome </label>
-        <input type="text" required>
+    <div id="teste">
 
-        <label id="label1"> Email </label>
-        <input type="text" required>
-
-        <label id="label2"> Celular / Telefone</label>
-        <input type="text" required>
-        
-        <label id="label2"> Escolha sua oferta </label>
-        <input type="text" required>
-        
-        <input id="Enviar" type="submit">
-    
-    </form>
-    <iframe src="./../layouts/footer.html" width="100%" frameborder="no" scrolling="0" height="550px"></iframe>
+        <form action="../pages/success.html" target="_parent">
+            
+            <label> Nome </label>
+            <input type="text" required>
+            
+            <label> Email </label>
+            <input type="text" required>
+            
+            <label> Celular / Telefone</label>
+            <input type="text" required>
+            
+            <label> Escolha sua oferta </label>
+            <input type="text" required>
+            
+            <input id="Enviar" type="submit">
+            
+        </form>
+    </div>
+        <iframe id="footer" src="../layouts/footer.html" width="100%" frameborder="no" scrolling="0"></iframe>
 
 </body>
 

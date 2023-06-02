@@ -76,7 +76,7 @@ h1 {
         cursor: pointer;
         
     }
-    @media(max-width: 678px){
+    @media screen and (max-device-width: 900px) and (min-device-height:400px){
         #header{
             width: 100%;
             padding: 0;
@@ -85,7 +85,7 @@ h1 {
             width: 100%;
             padding: 0;
             margin: 0;
-            height: 1100px;
+            height: 1150px;
         }
      
         h1{
@@ -105,7 +105,31 @@ h1 {
             padding: 0;
         }
         h3{
-            margin-top: 20%;
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            font-size: 20px;
+        }
+        p{
+            padding: 0;
+        }
+        #teste{
+            width: 80%;
+            margin: 0;
+            padding-bottom: 15%;
+        }
+        input{
+            margin: 0;
+        }
+        form{
+            margin: 0;
+            width: 100%;
+            padding-left: 15%;
+            padding-top: 10%;
+        }
+        #Enviar{
+            width: 50%;
         }
     }
    
