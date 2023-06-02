@@ -362,7 +362,6 @@ a {
 
     .section_sobrenos1 {
         margin: 0;
-        margin-left: 5%;
         width: 90%;
 
     }
@@ -431,5 +430,8 @@ a {
     }
     .text_noticias{
         height: 80%;
+    }
+    .section_sobrenos1{
+
     }
 }
