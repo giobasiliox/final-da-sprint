@@ -1,100 +1,97 @@
-#adicionnot {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    width:90%;
-    margin-left:5%;
-}
-
 .separator {
-    padding:1%;
-}
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .labeli {
+    width: 100px;
+  }
+  .itensnot{
+    margin-left: 15%;
+  }
+  
+  #addbut {
+    background-color: rgb(92, 121, 146);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 45%;
+  }
+  h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #tit{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+  .noticiToDo {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  .titlesno {
+    margin: 0;
+  }
+  
+  .butdel,
+  .butedit {
+    background-color: #ddd;
+    color: #555;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .butdel:hover,
+  .butedit:hover {
+    background-color: #bbb;
+  }
+  #inputs{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    -webkit-box-shadow: 17px 14px 19px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 14px 19px 1px rgba(0,0,0,0.75);
+    box-shadow: 17px 14px 19px 1px rgba(0,0,0,0.75);
+    margin-bottom: 4%;
 
-.labeli {
-    width:7.5%;
-}
-
-.itensnot {
-    display:flex;
-}
-
-* {
-    padding:0;
-    margin:0;
-}
-
-#autor {
-    width:90%;
-}
-
-#data {
-    width:90%;
-}
-
-#descrição {
-    width:90%;
-}
-
-#titulo {
-    width:90%;
-}
-
-.noticiToDo {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    width:90%;
-    margin-left:5%;
-    margin-top:2.5%;
-}
-
-.butdel {
-    background-color:red;
-    width:7.5%;
-    margin-right:1%;
-    font-size:16px;
-}
-
-.butedit {
-    background-color:rgb(115, 115, 253);
-    width:7.5%;
-    font-size:16px;
-}
-
-#addbut {
-    width:7.5%;
-    font-size:16px;
-    background-color: rgb(89, 255, 89);
-}
-
-.titlesno {
-    margin:0.5%;
-}
-
-h1 {
-    font-size:28px;
-}
-
-p {
-    font-size:20px;
-}
-
-h5 {
-    font-size:16px;
-}
-
-h4 {
-    font-size:18px;
-}
-
-label {
-    font-size:18px;
-}
+  }
+  input{
+    width: 80%;
+  }
+  
+  
 
 @media screen and (max-width: 1100px) {
     #autor {
         width:99%;
         font-size:15px;
+    }
+    #inputs{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 8%;
     }
     
     #data {
@@ -113,6 +110,8 @@ label {
     }
     .itensnot {
         flex-direction: column;
+        width: 95%;
+        margin-left: -1%;
     }
 
     .butdel {
@@ -131,16 +130,19 @@ label {
     }
     
     #addbut {
-        color:black;
-        width:25%;
+        color:white;
+        width:50%;
         font-size:16px;
-        background-color: rgb(89, 255, 89);
+        background-color:rgb(92, 121, 146);
+        margin-left: 3%;
     }
 
     #footer {
         
         height:1100px;
         margin-top:5%;
+        margin-left: -3%;
+        width: 105%;
     }
     .labeli {
         width:15%;
@@ -153,4 +155,9 @@ label {
     .labeli {
         width:35%;
     }
+    #header{
+        margin: -2%;
+        width: 104%;
+    }
+    
 }
