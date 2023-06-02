@@ -120,21 +120,25 @@ label {
         width:25%;
         margin-right:1%;
         font-size:16px;
+        color:black;
     }
     
     .butedit {
         background-color:rgb(115, 115, 253);
         width:25%;
         font-size:16px;
+        color:black;
     }
     
     #addbut {
+        color:black;
         width:25%;
         font-size:16px;
         background-color: rgb(89, 255, 89);
     }
 
     #footer {
+        
         height:1100px;
         margin-top:5%;
     }

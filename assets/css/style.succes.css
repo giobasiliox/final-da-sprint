@@ -106,5 +106,13 @@ button {
     .main_footer_copy{
         padding: 0;
     }
+    #botão_{
+        margin: 0;
+        padding: 0;  
+        margin-left: 35%;
+    }
+    form{
+        padding: 0;
+    }
 }
         
