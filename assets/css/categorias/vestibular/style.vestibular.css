@@ -371,6 +371,9 @@ a {
     p {
       font-size: 16px;
     }
+    #intr{
+        background-color: #ffffff;
+    }
   #article_comentarios{
     width: 85%;
     margin-left: 25%;
@@ -399,7 +402,7 @@ a {
  width: 100%;
  margin-bottom: -110%;
 
-}
+} 
 #todas_noticias{
     width: 100%;
     margin-left: 2%;
