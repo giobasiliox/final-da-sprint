@@ -211,4 +211,16 @@ body {
         width: 100%;
         height: 1150px;
     }
+    #article_comentarios{
+        width: 85%;
+        margin-left: 4%;
+        margin-top: 8%;
+        margin-bottom: 5%;
+      }
+      #fm{
+        width: 85%;
+      }
+      .borda_comentarios{
+        width: 85%;
+      }
     }

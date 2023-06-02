@@ -264,6 +264,18 @@ body {
     color: white;
     transform: rotateY(180deg);
 }
+.foto{
+    border-radius: 100%;
+}
+#fotof{
+    height: 56%;
+}
+#fotog{
+    height: 55%;
+}
+#fotov{
+    height: 53%;
+}
 
 @media (max-width: 700px) {
 
@@ -284,6 +296,7 @@ body {
     .arti {
         width: 100%;
         text-align: justify;
+        margin-left: 10%;
     }
 
     #div_sobrenos {
@@ -332,5 +345,27 @@ body {
     }
     #aaa{
         margin-top: 20%;
+    }
+    #footer{
+        height: 1150px;
+    }
+    .flip-card{
+        width: 99%;
+        margin-top: 15%;
+    }
+    .flip-card-inner{
+        width: 100%;
+    }
+    .flip-card-back{
+        width: 80%;
+        margin-right: 25%;
+        margin-left: 0%;
+    }
+    .p{
+        margin-left: -12%;
+    }
+    .h1{
+        margin-left: -12%;
+        width: 100%;
     }
 }

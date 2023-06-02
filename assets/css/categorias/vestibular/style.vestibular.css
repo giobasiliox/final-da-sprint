@@ -18,7 +18,7 @@ h1 {
 /*ediçao do p */
 #intr{
    
-    background-color: grey;
+    background-color: white;
 }
 #todas_noticias{
     margin-left: 13%;
@@ -371,11 +371,15 @@ a {
     p {
       font-size: 16px;
     }
+    #intr{
+        background-color: #ffffff;
+    }
   #article_comentarios{
-    width: 85%;
+    width: 70%;
     margin-left: 25%;
     margin-top: 8%;
     margin-bottom: 5%;
+
   }
   #fm{
     width: 80%;
@@ -399,7 +403,7 @@ a {
  width: 100%;
  margin-bottom: -110%;
 
-}
+} 
 #todas_noticias{
     width: 100%;
     margin-left: 2%;
@@ -436,7 +440,17 @@ a {
     margin-left: -10%;
 }
 .title_categorias{
-    margin-left: 23%;
+    margin-right: 50%;
+    margin-left: -60%;
+    width: 90%;
+}
+button{
+    width: 100%;
+    margin: 0%;
+}
+#section_gif{
+    width: 80%;
+    margin-right: -30%;
 }
 
   }
