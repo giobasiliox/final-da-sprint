@@ -326,7 +326,7 @@ a {
 }
 #article_comentarios{
     width: 85%;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-top: 50%;
     margin-bottom: 5%;
   }
@@ -367,6 +367,12 @@ a {
 button{
     width: 100%;
     margin: 0%;
+}
+.pai_article{
+    width: 90%;
+}
+#ari{
+    width: 90%;
 }
 }
 

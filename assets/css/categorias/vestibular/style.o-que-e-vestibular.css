@@ -254,7 +254,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -4%;
+    margin-left: -5%;
 }
 #estreilas{
     display: flex;
@@ -271,7 +271,7 @@ a {
 }
 #article_comentarios{
     width: 85%;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 50%;
     margin-bottom: 5%;
   }
@@ -290,27 +290,17 @@ a {
     margin: 0;
     height: 1150px;
 }
-.section_oqueé{
+#div_pqserve{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin-left: 2%;
 }
-#div_oqueé{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
+#pqserve{
+    margin-left: -25%;
 }
-#img_chapeu{
- width: 124%;
- margin-left: -10%;
- margin-top: 5%;
-}
-.section_oqueé2{
-    width: 90%;
-}
-#div_oqueé2{
-    width: 90%;
+#ardimg{
+    margin-left: -85%;
+    width: 100%;
+
 }
 .title_categorias{
     margin-left: 23%;
@@ -323,6 +313,14 @@ a {
 button{
     width: 100%;
     margin: 0%;
+}
+.textou{
+    width: 90%;
+}
+#ari{
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 0%;
 }
 
 }
