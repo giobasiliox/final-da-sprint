@@ -1,44 +1,18 @@
-// alert("Olá, valide a sua entrada")
-// let user = prompt("Digite o nome de usuario")
+alert("Olá, valide a sua entrada")
+let user = prompt("Digite o nome de usuario")
+let permitidos = ["Fábio Vilas Boas", "Gabriel Caurin", "Giovana Basílio", "Nicoly Val", "Rafael Cumpri", "Victor Hugo"]
 
-
-// if(user != "Fábio Vilas Boas"){
-//     alert("Você não faz parete da nossa equipe, a to-do list não estrá habilitada para você")
-//     console.log("caiu aqui")
+if(user != permitidos[0]){
+    alert("Você não faz parte da nossa equipe, a to-do list não estrá habilitada para você")
+    console.log("caiu aqui")
    
-// }else{
-//     let senha = prompt("Olá querido, digite a sua senha:")
-//     console.log("pediu senha")
-// if(senha =="PsiOmega123"){
-//     alert("Bem vindo")
-var usuarios = ['Fábio Vilas Boas', 'Gabriel Caurin', 'Giovana Basílio', 'Nicoly Val', 'Rafael Cumpri', 'Victor Hugo'];
-var senha = 'Vishkk007';
-var tentativas = 0;
+}else if(user == permitidos[0]){
+ let senha = prompt("Olá querido, digite a sua senha:")
+   console.log("pediu senha")
+if(senha =="PsiOmega123"){
+    alert("Bem vindo")
 
-
-while (true){
-function promptLogin() {
-  var user = prompt('Digite o nome de usuário:');
-  var tentativasenha = prompt('Digite a senha:');
-  
-  if (usuarios.includes(user) &&tentativasenha === senha) {
-    alert("Bem Vindo")
-  } else {
-    tentativas++;
-    if (tentativas > 3) {
-      alert('Acesso bloqueado. Tente novamente mais tarde.');
-      false;
-    } else {
-      promptLogin();
-    }
-  }
-}
-
-promptLogin();
-
-// Restante do código da to-do list
-// ...
-var edit = -1
+    var edit = -1
     //function para adição de noticia 
     function adicionarnot() {
       //variáveis pegar valor escrito
@@ -151,15 +125,18 @@ var edit = -1
   
       text[y] = `<section class="noticiToDo" id="noticia${y}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[y]}</h1><h5 class="titlesno">Data: ${datas[y]}</h5><p class="titlesno">Descrição: ${descricoes[y]}</p><h4 class="titlesno">Autor: ${autores[y]}</h4><button class="butdel" onclick="deletar(${y})">Deletar 🗑️</button><button class="butedit" onclick="editar(${y})">Editar ✏️</button></div></section>`
   }
+  
+
+
+
+
+}else{
+    alert("Saia daqui infeliz")
 }
 
-// }else{
-//     alert("Saia daqui infeliz")
-// }
-
-// }
+}
 
 
 
-//variável para prevenir que a primeira adição de informação não funcione 
+
 
