@@ -374,6 +374,7 @@ a {
     #intr{
         background-color: #ffffff;
         width: 90%;
+        margin-top: 15%;
     }
   #article_comentarios{
     width: 70%;
@@ -410,6 +411,7 @@ a {
     margin-left: 2%;
 
 }
+
 .section_noticias{
     width: 88%;
     display: flex;
@@ -441,18 +443,13 @@ a {
     margin-left: -10%;
 }
 .title_categorias{
-    margin-right: 50%;
-    margin-left: -60%;
-    width: 90%;
-}
-button{
-    width: 100%;
-    margin: 0%;
+    margin: 0;
 }
 #section_gif{
     width: 80%;
     margin-right: -30%;
 }
+
 
   }
   
