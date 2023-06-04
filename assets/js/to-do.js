@@ -1,16 +1,4 @@
-alert("Olá, valide a sua entrada")
-let user = prompt("Digite o nome de usuario")
-let permitidos = ["Fábio Vilas Boas", "Gabriel Caurin", "Giovana Basílio", "Nicoly Val", "Rafael Cumpri", "Victor Hugo"]
 
-if(user != permitidos[0]){
-    alert("Você não faz parte da nossa equipe, a to-do list não estrá habilitada para você")
-    console.log("caiu aqui")
-   
-}else if(user == permitidos[0]){
- let senha = prompt("Olá querido, digite a sua senha:")
-   console.log("pediu senha")
-if(senha =="PsiOmega123"){
-    alert("Bem vindo")
 
     var edit = -1
     //function para adição de noticia 
@@ -130,11 +118,7 @@ if(senha =="PsiOmega123"){
 
 
 
-}else{
-    alert("Saia daqui infeliz")
-}
 
-}
 
 
 
