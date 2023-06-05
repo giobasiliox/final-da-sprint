@@ -1,22 +1,23 @@
-// function login() {
-//     var username = document.getElementById("username").value;
-//     var password = document.getElementById("password").value;
+alert("Valide a sua entrada")
+function visualizarsenha() {
+    var passwordInput = document.getElementById("password");
+    var verButton = document.getElementById("versenha");
 
-//     // Verifica se o nome de usuário e a senha estão corretos
-//     if ((username == "Fábio" || username == "Giovana" || username == "Gabriel" || username == "Nicoly" || username == "Rafael" || username === "Victor") && password == "PsiOmega123") {
-//         // Redireciona para a página da to-do list
-//         window.location.href = "../../pages/to-do list.html";
-//     } else {
-//         document.getElementById("error-message").style.display = "block";
-//     }
-// }
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        verButton.innerText = "😑";
+    } else {
+        passwordInput.type = "password";
+        verButton.innerText = "😶";
+    }
+}
+
 function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    // Verifica se o nome de usuário e a senha estão corretos
-    if ((username === "Fábio" || username === "Giovana" || username === "Gabriel" || username === "Nicoly" || username === "Rafael" || username === "Victor") && password === "PsiOmega123") {
-        // Redireciona para a página da to-do list
+    if ((username == "Fábio Vilas Boas" || username == "Giovana Basilio" || username == "Gabriel Caurin" || username == "Nicoly Val" || username == "Rafael Cumpri" || username == "Victor Hugo") && password == "PsiOmega123") {
+      
         window.location.href = "../../pages/to-do list.html";
     } else {
         document.getElementById("mensagem").style.display = "block";

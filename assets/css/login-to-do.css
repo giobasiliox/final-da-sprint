@@ -58,3 +58,9 @@ body {
     color: red;
     margin-top: 10px;
 }
+.ver {
+    position: relative;
+    top: -25px;
+    left: 95%;
+    cursor: pointer;
+}
