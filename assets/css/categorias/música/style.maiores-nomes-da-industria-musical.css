@@ -303,7 +303,7 @@ a {
     }
     .section_sobrenos1 {
         margin: 0;
-        width: 90%;
+        width: 95%;
 
     }
     #div_sobrenos {
@@ -359,5 +359,8 @@ a {
     }
     .text_noticias{
         height: 80%;
+    }
+    #para{
+        width: 100%;
     }
 }
