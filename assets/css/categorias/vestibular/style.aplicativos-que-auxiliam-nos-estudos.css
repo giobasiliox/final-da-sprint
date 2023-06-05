@@ -374,5 +374,18 @@ button{
 #ari{
     width: 90%;
 }
+.img_textN{
+    display: flex;
+    flex-direction: column;
+}
+.text_publicado{
+    margin-left: -40%;
+}
+.img_noticias{
+    margin-left: 20%;
+}
+.text_noticias{
+    margin-left: -7%;
+}
 }
 
