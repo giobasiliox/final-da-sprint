@@ -5,10 +5,10 @@ function visualizarsenha() {
 
     if (passwordInput.type == "password") {
         passwordInput.type = "text";
-        verButton.innerText = "😑";
+        verButton.innerText = "😉";
     } else {
         passwordInput.type = "password";
-        verButton.innerText = "😶";
+        verButton.innerText = "😌";
     }
 }
 
