@@ -344,7 +344,8 @@ a {
         margin-left: -50%;
     }
 #esportes_gif {
-    width: 100%;
+    width: 70%;
+    margin-left: 30%;
 }
 .section_noticias {
     width: 70%;
@@ -367,9 +368,11 @@ a {
   #fm{
     width: 85%;
   }
-  .borda_comentarios{
-    width: 129%;
-  }
+  .borda_comentarios {
+    width: 70%;
+    margin-bottom: 22.5px;
+    resize: none;
+}
   #pai_principal {
     display: flex;
     flex-direction: column;
