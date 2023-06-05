@@ -593,13 +593,14 @@ a {
         flex-direction: column;
        margin-left: 0%;
     }
-    #estreilas{
+    .estreilas{
         display: flex;
         margin-left: 33%;
         margin-bottom: 4%;
     }
     .text_date{
         margin-left: 35%;
+        margin: 0;
     }
     .img_noticias{
         height: 50%;
