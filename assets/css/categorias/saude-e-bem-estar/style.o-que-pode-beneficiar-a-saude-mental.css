@@ -38,7 +38,9 @@ body {
     box-shadow: 10px;
     display: flex;
 }
-
+#article_comentarios {
+    margin-left: 50px;
+}
 #div_sobrenos {
     display: flex;
     padding: 10px;
