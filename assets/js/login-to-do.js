@@ -3,7 +3,7 @@ function visualizarsenha() {
     var passwordInput = document.getElementById("password");
     var verButton = document.getElementById("versenha");
 
-    if (passwordInput.type === "password") {
+    if (passwordInput.type == "password") {
         passwordInput.type = "text";
         verButton.innerText = "😑";
     } else {
