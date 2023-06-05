@@ -1,5 +1,3 @@
-
-
     var edit = -1
     //function para adição de noticia 
     function adicionarnot() {
