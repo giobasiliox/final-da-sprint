@@ -18,7 +18,7 @@ function login() {
 
     if ((username == "Professor" ||username == "Fábio_VilasBoas" || username == "Giovana_Basilio" || username == "Gabriel_Caurin" || username == "Nicoly_Val" || username == "Rafael_Cumpri" || username == "Victor_Hugo") && (password == "123"|| password == "prof123")) {
       
-        window.location.href = "../../pages/to-do list.html";
+        window.location.href = "./to-do list.html";
     } else {
         document.getElementById("mensagem").style.display = "block";
     }
