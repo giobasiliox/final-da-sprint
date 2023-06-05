@@ -66,6 +66,11 @@ body {
 }
 @media (max-width: 700px) {
     
-    
+    #footer{
+        height: 1150px;
+    }
+    .formulario{
+        width: 90%;
+    }
 
 }
