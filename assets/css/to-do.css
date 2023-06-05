@@ -97,6 +97,9 @@
     font-size: 19px;
     margin-left:5%;
 }
+.flexin{
+display: flex;
+}
 
 @media screen and (max-width: 700px) {
     #autor {
@@ -183,6 +186,7 @@
         margin: -2%;
         width: 104%;
     }
+
    
     
 }
