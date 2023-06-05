@@ -78,8 +78,10 @@ body {
     .formulario input[type="button"]{
         margin-left: 4%;
     }
-    #versenha{
-        margin-bottom: 4%;
+    #password{
+        padding-bottom: 8%;
     }
-
+   #aa{
+    margin-top: -4%;
+   }
 }
