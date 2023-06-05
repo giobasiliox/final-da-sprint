@@ -204,10 +204,7 @@ h1 {
 }
 
 #article_comentarios {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 45px;
+margin-left: -1px;
 }
 
 .borda_comentarios {
@@ -379,7 +376,7 @@ a {
 
     .section_sobrenos1 {
         margin: 0;
-        width: 90%;
+        width: 95%;
 
     }
 
@@ -452,5 +449,8 @@ a {
 
     #title_membros {
         margin-left: 5%;
+    }
+    #para{
+        width: 100%;
     }
 }

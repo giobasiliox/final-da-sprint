@@ -158,10 +158,7 @@ a {
     text-align: center;
 }
 #article_comentarios {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left:-1px;
 }
 
 .borda_comentarios {
@@ -306,7 +303,7 @@ a {
     }
     .section_sobrenos1 {
         margin: 0;
-        width: 90%;
+        width: 95%;
 
     }
     #div_sobrenos {
@@ -362,5 +359,8 @@ a {
     }
     .text_noticias{
         height: 80%;
+    }
+    #para{
+        width: 100%;
     }
 }

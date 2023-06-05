@@ -239,7 +239,6 @@ a {
     }
     p{
         text-align: justify;
-        width: 100%;
     }
     .section_diferenca2{
         width: 90%;
@@ -256,7 +255,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -4%;
+    margin-left: -5%;
 }
 #estreilas{
     display: flex;
@@ -266,14 +265,14 @@ a {
 .icon_text{
     display: flex;
     flex-direction: column;
-   margin-left: -18%;
+   margin-left: -15%;
 }
 .text_date{
     margin-left: 41%;
 }
 #article_comentarios{
     width: 85%;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 50%;
     margin-bottom: 5%;
   }
@@ -292,8 +291,17 @@ a {
     margin: 0;
     height: 1150px;
 }
-.section_oqueé{
-    width: 90%;
+#div_pqserve{
+    display: flex;
+    flex-direction: column;
+}
+#pqserve{
+    margin-left: -25%;
+}
+#ardimg{
+    margin-left: -85%;
+    width: 100%;
+
 }
 .title_categorias{
     margin-left: 23%;
@@ -306,5 +314,13 @@ a {
 button{
     width: 100%;
     margin: 0%;
+}
+.textou{
+    width: 90%;
+}
+#ari{
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 0%;
 }
 }

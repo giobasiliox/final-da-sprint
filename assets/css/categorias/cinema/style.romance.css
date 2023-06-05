@@ -168,7 +168,7 @@ p {
 /*Ajuste do Article*/
 #containerArticle {
     margin-top: -100px;
-    margin-left: 90px;
+    margin-left: -1px;
 }
 
 @media screen and (max-width:700px){
@@ -189,7 +189,9 @@ p {
     #section_1 {
         display: flex;
         flex-direction: column; 
-        margin-top: -300px;  
+        margin-top: -300px; 
+        margin-left: 68px;
+        margin-right: auto;
     }
     .flip_card {
         margin-top: 70%;
@@ -198,7 +200,9 @@ p {
         display: flex;
         flex-direction: column;
         margin-top: -300px;
-        margin-bottom: -600px;
+        margin-bottom: -620px;
+        margin-left: 68px;
+        margin-right: auto;
     }
     #pa5 {
         font-size: 12px;   

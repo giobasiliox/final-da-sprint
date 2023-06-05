@@ -9,7 +9,7 @@ p {
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    font-size:medium;
+    font-size: medium;
     text-align: justify;
 }
 
@@ -17,7 +17,7 @@ p {
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: Arial;
-    font-size:medium;
+    font-size: medium;
     text-align: justify;
     padding-bottom: -60px;
     padding-top: 30px;
@@ -39,7 +39,7 @@ body {
 
 #section_imgsobrenos {
     text-align: center;
-    padding-top:50px; 
+    padding-top: 50px;
 }
 
 .section_sobrenos {
@@ -105,7 +105,7 @@ body {
 #title_membros {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top:50px;
+    padding-top: 50px;
     text-align: center;
     margin-right: 300px;
 }
@@ -121,11 +121,11 @@ body {
     margin-right: 50px;
     transition: 2s;
     transform: scale(1.1);
-    -webkit-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.75);
 }
- 
+
 #img_1 {
     padding-left: 10px;
 }
@@ -205,6 +205,7 @@ a {
     padding-bottom: 350px;
     text-align: center;
 }
+
 #article_comentarios {
     display: flex;
     justify-content: space-between;
@@ -215,7 +216,7 @@ a {
 .titulo_coment {
     color: rgb(0, 0, 0);
     font-family: arial;
-    font-size:large;
+    font-size: large;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -295,7 +296,7 @@ h3 {
 }
 
 .pai_depoimento {
-    width:33,3%;
+    width: 33, 3%;
     height: 30%;
     padding: 2%;
     margin: 1%;
@@ -318,125 +319,73 @@ h3 {
     font-size: 12px;
     color: gray;
 }
-@media screen and (max-width:600px) {
-    #header {
-        width: 130%;
-       padding: 0;
+
+@media (max-width: 700px) {
+
+    .linkmateria {
+        width: 90%;
     }
-    #text_credits {
-        margin-right: 98%;
-        text-align: center;
-        font-size: 20px;
+
+    .section_noticias {
+        width: 90%;
+        margin-left: 2%;
+
     }
-    #article25 {
+
+    #title_membros {
+        margin-left: -55%;
+        width: 50%;
+    }
+
+    .icon_text {
         margin-left: -50%;
+        width: 90%;
     }
-#esportes_gif {
-    margin-right: -40%;
-}
-.img_textN{
-    display: flex;
-    flex-direction: column;
-}
-.icon_text{
-    margin-left: -70%;
-}
-#article_comentarios{
-    width: 85%;
-    margin-left: 4%;
-    margin-top: 8%;
-    margin-bottom: 5%;
-  }
-  #fm{
-    width: 85%;
-  }
-  .borda_comentarios{
-    width: 50%;
-  }
-  #pai_principal {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3%;
-    width: 120%;
-  }
-  #footer {
-    width: 120%;
-    padding: 0%;
-    margin-left:5%;
-    margin-right: 5%;
-    height: 1100px;
-    
-}
-#section_background {
-    padding: 40;
-    margin-top: -45%;
-}
-#h9 {
-    width: 110%;
-    margin-top: 30%;
-    margin-bottom: 80%;
-    margin-right:90%;
-}
-#div14 {
-margin-top: 25%;
-padding-right: 4%;
-}
-#ar0 {
-    margin-top: 20%;
-}
-#text_credits {
-    margin-top: -50%;
-    width: 50%;
-}
-.title_categorias{
-    margin: 0%;
-    margin-right: 0;
-}
-.section_noticias {
-    width: 110%;
-    padding-right: 6%;
-    margin-left: 5%;
-}
-#title_membros {
-  font-size: 30px;
-  padding-left: 35%;
-  
-}
-#section_credits {
-    width: 100%;
-    margin-top:70%;
-    margin-left: 30%;
-}
-.p_text {
-    font-size: 20px;
-    width: 120%;
-   
-}
-#text_1 {
-    font-size: 20px;
-width: 70%;
-height: 40;
-}
-#text_date {
-    font-size: 20px;
-}
-.text_publicado {
-    padding-left: 50%;
 
-}
-.text_date {
-    padding-right: 4%;
-    margin-right: 4%;
+    #section_credits {
+        margin-left: 28%;
+    }
 
-}
-.section_sobrenos {
-    width: 120%;
-}
-.section_sobrenos1 {
-    width: 120%;
-    padding-right: 4%;
-}
-#section_imgsobrenos {
-    width: 120%;
-}
+    #article_comentarios {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    #aff {
+        width: 80%;
+    }
+
+    #aff2 {
+        width: 80%;
+
+    }
+
+    .borda_comentarios {
+        width: 70%;
+        margin-bottom: 22.5px;
+        resize: none;
+    }
+
+    #pai_principal {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    #footer {
+        height: 1150px;
+    }
+
+    .title_categorias {
+        margin: 0;
+    }
+
+    .section_sobrenos1 {
+        width: 90%;
+    }
+
+    .section_sobrenos {
+        width: 90%;
+    }
 }

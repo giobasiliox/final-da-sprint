@@ -183,7 +183,9 @@ p {
     #section_1 {
         display: flex;
         flex-direction: column; 
-        margin-top: -400px;  
+        margin-top: -400px; 
+        margin-left: 68px;
+        margin-right: auto;
     }
     .flip_card {
         margin-top: 70%;
@@ -193,6 +195,8 @@ p {
         flex-direction: column;
         margin-top: -300px;
         margin-bottom: -600px;
+        margin-left: 68px;
+        margin-right: auto;
     }
     #pa7 {
         font-size: 12px;   

@@ -16,7 +16,9 @@ body {
     background-color: #ffff;
     margin: 0;
 }
-
+#article_comentarios {
+    margin-left: 50px;
+}
 #imgsobrenos {
     margin-top: 20px;
     margin-bottom: 30px;
