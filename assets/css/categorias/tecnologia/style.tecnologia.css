@@ -551,8 +551,7 @@ a {
     }
     .section_sobrenos {
         margin: 0;
-        width: 90%;
-
+        width: 95%;
     }
     #div_sobrenos {
         flex-direction: column;
@@ -565,6 +564,7 @@ a {
         width: 88%;
         display: flex;
         flex-direction: column;
+
     }
     .img_textN {
         flex-direction: column;
@@ -593,13 +593,14 @@ a {
         flex-direction: column;
        margin-left: 0%;
     }
-    #estreilas{
+    .estreilas{
         display: flex;
         margin-left: 33%;
         margin-bottom: 4%;
     }
     .text_date{
         margin-left: 35%;
+        margin: 0;
     }
     .img_noticias{
         height: 50%;
@@ -608,4 +609,5 @@ a {
     .text_noticias{
         height: 80%;
     }
+
 }

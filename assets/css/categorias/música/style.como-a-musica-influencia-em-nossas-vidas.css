@@ -376,7 +376,7 @@ a {
 
     .section_sobrenos1 {
         margin: 0;
-        width: 90%;
+        width: 95%;
 
     }
 
@@ -449,5 +449,8 @@ a {
 
     #title_membros {
         margin-left: 5%;
+    }
+    #para{
+        width: 100%;
     }
 }
