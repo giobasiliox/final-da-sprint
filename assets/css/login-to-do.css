@@ -78,5 +78,8 @@ body {
     .formulario input[type="button"]{
         margin-left: 4%;
     }
+    #versenha{
+        margin-bottom: 4%;
+    }
 
 }
