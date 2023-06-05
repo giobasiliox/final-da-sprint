@@ -42,7 +42,7 @@ function adicionarnot() {
         text[i] = `<section class="noticiToDo" id="noticia${i}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i]}</h1><h5 class="titlesno">Data: ${dias[i]}/${meses[i]}/${anos[i]}</h5><p class="titlesno">Descrição: ${descricoes[i]}</p><h4 class="titlesno">Autor: ${autores[i]}</h4><button class="butdel" onclick="deletar(${i})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i})">Editar ✏️</button></div></section>`
 
         //adicionar outros textos
-        document.getElementById(`todos`).innerHTML = `${text.join(' ')}`
+        document.getElementById(`todos`).innerHTML = `${text.reverse().join(" ")}`;
         i++
     }
 
