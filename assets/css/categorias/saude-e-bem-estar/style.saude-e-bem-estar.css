@@ -306,7 +306,9 @@ a {
     text-decoration: none;
     color: black;
 }
-
+#article_comentarios {
+    margin-left: 50px;
+}
 #section_background {
     background-image: url("../../../images/saude/banner.jfif");
     margin-top: -155px;

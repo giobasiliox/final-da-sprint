@@ -30,7 +30,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   #tit{
-    background-color: black;
+    background-color: rgb(92, 121, 146);
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -61,6 +61,11 @@
     border-radius: 4px;
     cursor: pointer;
     margin-right: 5px;
+    margin-top: 1%;
+  }
+  
+  .butdel{
+    margin-left: 5%;
   }
   
   .butdel:hover,
@@ -88,9 +93,12 @@
     margin: -1%;
     width: 102%;
   }
-  
+  .titlesno{
+    font-size: 19px;
+    margin-left:5%;
+}
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 700px) {
     #autor {
         width:99%;
         font-size:15px;
@@ -122,7 +130,8 @@
     }
 
     .butdel {
-        background-color:red;
+        background-color:#ddd;
+        color: #555;
         width:25%;
         margin-right:1%;
         font-size:16px;
@@ -131,7 +140,8 @@
     }
     
     .butedit {
-        background-color:rgb(115, 115, 253);
+        background-color:#ddd;;
+        color: #555;
         width:25%;
         font-size:16px;
         color:black;
@@ -139,6 +149,10 @@
       
     }
     
+    .butdel:hover,
+  .butedit:hover {
+    background-color: #bbb;
+  }
     #addbut {
         color:white;
         width:50%;
@@ -169,5 +183,6 @@
         margin: -2%;
         width: 104%;
     }
+   
     
 }

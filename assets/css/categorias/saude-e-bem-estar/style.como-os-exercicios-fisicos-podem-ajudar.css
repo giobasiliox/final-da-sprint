@@ -23,6 +23,10 @@ body {
     border-radius: 10px;
 }
 
+#article_comentarios {
+    margin-left: 50px;
+}
+
 #section_imgsobrenos {
     text-align: center;
     padding-top: 80px;
@@ -125,7 +129,7 @@ body {
     margin-left: 180px;
 }
 
-@media screen and (max-device-width: 900px) and (min-device-height:400px){
+@media screen and (max-device-width: 900px) and (min-device-height:400px) {
     #header {
         width: 100%;
         padding: 0;
@@ -137,6 +141,7 @@ body {
         margin: 0;
         height: 1150px;
     }
+
     p {
         font-size: 20px;
     }
@@ -178,7 +183,7 @@ body {
 
     }
 
-     #section_imgsobrenos {
+    #section_imgsobrenos {
         padding: 0;
     }
 
@@ -198,13 +203,15 @@ body {
         width: 90%;
         padding: 2%;
         flex-direction: column;
-    
+
     }
+
     .section_sobrenos {
         margin: 0;
         width: 90%;
 
     }
+
     #div_sobrenos {
         flex-direction: column;
     }
@@ -212,54 +219,67 @@ body {
     #section_credits {
         margin-left: 0;
     }
+
     .section_noticias {
         width: 88%;
         display: flex;
         flex-direction: column;
     }
+
     .img_textN {
         flex-direction: column;
         margin-left: -3%;
     }
+
     .text_publicado {
-        padding-left:0;
+        padding-left: 0;
     }
+
     .title_categorias {
-        margin-right:0;
-    } 
-    #article_comentarios{
+        margin-right: 0;
+    }
+
+    #article_comentarios {
         width: 85%;
         margin-left: 4%;
         margin-top: 8%;
         margin-bottom: 5%;
-      }
-      #fm{
+    }
+
+    #fm {
         width: 85%;
-      }
-      .borda_comentarios{
+    }
+
+    .borda_comentarios {
         width: 85%;
-      }
-      .icon_text{
+    }
+
+    .icon_text {
         display: flex;
         flex-direction: column;
-       margin-left: 0%;
+        margin-left: 0%;
     }
-    #estreilas{
+
+    #estreilas {
         display: flex;
         margin-left: 33%;
         margin-bottom: 4%;
     }
-    .text_date{
+
+    .text_date {
         margin-left: 35%;
     }
-    .img_noticias{
+
+    .img_noticias {
         height: 50%;
         margin-left: 25%;
     }
-    .text_noticias{
+
+    .text_noticias {
         height: 80%;
     }
+
     .section_sobrenos1 {
-        padding-right:0;
+        padding-right: 0;
     }
 }

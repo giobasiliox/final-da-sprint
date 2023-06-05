@@ -5,10 +5,10 @@ function visualizarsenha() {
 
     if (passwordInput.type == "password") {
         passwordInput.type = "text";
-        verButton.innerText = "😑";
+        verButton.innerText = "😉";
     } else {
         passwordInput.type = "password";
-        verButton.innerText = "😶";
+        verButton.innerText = "😌";
     }
 }
 
@@ -16,7 +16,7 @@ function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if ((username == "Fábio Vilas Boas" || username == "Giovana Basilio" || username == "Gabriel Caurin" || username == "Nicoly Val" || username == "Rafael Cumpri" || username == "Victor Hugo") && password == "PsiOmega123") {
+    if ((username == "Fábio_VilasBoas" || username == "Giovana_Basilio" || username == "Gabriel_Caurin" || username == "Nicoly_Val" || username == "Rafael_Cumpri" || username == "Victor_Hugo") && password == "123") {
       
         window.location.href = "../../pages/to-do list.html";
     } else {
