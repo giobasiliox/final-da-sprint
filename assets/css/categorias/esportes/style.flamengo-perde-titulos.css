@@ -318,6 +318,7 @@ h3 {
     font-size: 12px;
     color: gray;
 }
+<<<<<<< HEAD
 @media screen and (max-width:600px) {
     #container {
         width: 100%;
@@ -495,5 +496,60 @@ display: flex;
 }
 .text_publicado {
     margin-left: -190px;
+=======
+@media (max-width: 700px) {
+  
+    .linkmateria{
+        width: 90%;
+    }
+    .section_noticias{
+        width: 90%;
+        margin-left: 2%;
+   
+    }
+    #title_membros{
+        margin-left: -55%;
+        width: 50%;
+    }
+    .icon_text{
+        margin-left: -50%;
+        width: 90%;
+    }
+    #section_credits{
+       margin-left: 28%;
+    }
+   
+  #article_comentarios{
+    width: 80%;
+    margin-left: 20%;
+  }
+  #aff{
+    width: 80%;
+  }
+  #aff2{
+    width: 80%;
+
+  }
+    .borda_comentarios{
+        width: 100%;
+    }    
+    #pai_principal{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+  #footer{
+    height: 1150px;
+  }
+  .title_categorias{
+    margin: 0;
+}
+.section_sobrenos1{
+    width: 90%;
+}
+.section_sobrenos{
+    width: 90%;
+>>>>>>> 49b6959756704379cf6b580e31422a9e32200248
 }
 }

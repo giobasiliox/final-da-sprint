@@ -294,7 +294,7 @@ body {
     }
 
     .arti {
-        width: 100%;
+        width: 90%;
         text-align: justify;
         margin-left: 10%;
     }
@@ -368,4 +368,7 @@ body {
         margin-left: -12%;
         width: 100%;
     }
+   li{
+   margin-left: -2%;
+   }
 }
