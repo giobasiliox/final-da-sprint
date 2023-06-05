@@ -101,10 +101,23 @@
 display: flex;
 }
 
+.rightjo {
+  margin-left:30%;
+  color:gray;
+  opacity:0.75;
+}
+
+select {
+  width: 81%;
+}
+
 @media screen and (max-width: 700px) {
     #autor {
         width:99%;
         font-size:15px;
+    }
+    select {
+      width: 103%;
     }
     #inputs{
         width: 80%;
