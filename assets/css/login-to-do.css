@@ -72,5 +72,11 @@ body {
     .formulario{
         width: 90%;
     }
+    .container{
+        width: 80%;
+    }
+    .formulario input[type="button"]{
+        margin-left: 4%;
+    }
 
 }
