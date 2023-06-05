@@ -351,9 +351,11 @@ h3 {
     width: 80%;
 
   }
-    .borda_comentarios{
-        width: 100%;
-    }    
+  .borda_comentarios {
+    width: 70%;
+    margin-bottom: 22.5px;
+    resize: none;
+}
     #pai_principal{
         display: flex;
         flex-direction: column;
