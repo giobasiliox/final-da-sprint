@@ -299,7 +299,7 @@ a {
     }
     .section_sobrenos {
         margin: 0;
-        width: 90%;
+        width: 96%;
 
     }
     #div_sobrenos {
@@ -341,7 +341,7 @@ a {
         flex-direction: column;
        margin-left: 0%;
     }
-    #estreilas{
+    .estreilas{
         display: flex;
         margin-left: 33%;
         margin-bottom: 4%;
@@ -356,5 +356,8 @@ a {
     }
     .text_noticias{
         height: 80%;
+    }
+    #para{
+        width: 100%;
     }
 }

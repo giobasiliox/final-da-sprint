@@ -303,8 +303,7 @@ p {
     }
     .section_sobrenos {
         margin: 0;
-        width: 90%;
-
+        width: 96%;
     }
     #div_sobrenos {
         flex-direction: column;
@@ -360,5 +359,8 @@ p {
     }
     .text_noticias{
         height: 80%;
+    }
+    #para{
+        width: 100%;
     }
 }   
