@@ -132,10 +132,7 @@ h1 {
 }
 
 #article_comentarios {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: -1px;
 }
 
 .borda_comentarios {
