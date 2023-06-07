@@ -251,11 +251,11 @@ a {
 
 }
 .section_noticias{
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -5%;
+  
 }
 #estreilas{
     display: flex;
@@ -336,4 +336,8 @@ button{
 .text_noticias{
     margin-left: -7%;
 }
+.section_oqueé{
+    width: 90%;
+   margin-left: 6%;
 }
+} 

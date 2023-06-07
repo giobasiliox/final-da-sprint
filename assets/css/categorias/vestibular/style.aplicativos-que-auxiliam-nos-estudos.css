@@ -304,11 +304,11 @@ a {
 
 }
 .section_noticias{
-    width: 95%;
+    width: 93%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -4%;
+    margin-left: -5%;
 }
 #estreilas{
     display: flex;

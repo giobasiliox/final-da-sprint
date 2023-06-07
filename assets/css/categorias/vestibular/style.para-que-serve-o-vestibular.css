@@ -252,16 +252,20 @@ a {
         margin-left: 28%;
 
     }
-    .section_diferenca{
-        width: 90%;
+    .section_pqserve{
+        width: 85%;
         text-align: justify;
+        margin-left: 7%;
+        margin-right: auto;
     }
     p{
         text-align: justify;
     }
-    .section_diferenca2{
-        width: 90%;
+    .section_pqserve2{
+        width: 85%;
         text-align: justify;
+        margin-left: 7%;
+        margin-right: auto;
     }
 
 #todas_noticias{
@@ -315,7 +319,8 @@ a {
     flex-direction: column;
 }
 #pqserve{
-    margin-left: -25%;
+    margin-left: 2%;
+    width: 95%;
 }
 #ardimg{
     margin-left: -85%;
