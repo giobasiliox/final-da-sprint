@@ -32,6 +32,7 @@ header {
     cursor: pointer;
     padding: 5px;
     transition: all 0.5s;
+    margin-left: -35%;
 }
 
 #btnMenu:hover {
@@ -89,11 +90,47 @@ header {
 .effect {
     transition: margin 0.4s;
 }
+
 @media (max-width: 700px) {
     #menu{
         margin-left: auto;
         margin-right: auto;
     }
+    #link0{
+        font-size: 14px;
+       margin-top: -5%;
+       margin-bottom: 3%;
+    }
+    #cima{
+        display: flex;
+        margin-left: 30%;
+       
+        justify-content:stretch;
+      
+    }
+    #baixo{
+        margin-top: 4%;
+        display: flex;
+    }
+    .anav_1 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 14px;
+        padding: 10px;
+        border: 5px;
+  
+      }
+      
+      .anav_2 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 14px;
+        padding: 10px;
+        border: 5px;
+     
+      }
     
 }
 @media (min-width: 700px) {
@@ -103,4 +140,22 @@ header {
     #btnMenu{
         display: none;
     }
+   
+    .anav_1 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: large;
+        padding: 10px;
+        border: 5px;
+      }
+      
+      .anav_2 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: large;
+        padding: 10px;
+        border: 5px;
+      }
 }
