@@ -318,7 +318,19 @@ h3 {
     font-size: 12px;
     color: gray;
 }
+
+@media (min-width: 700px){
+    #teste{
+        display: none;
+    }
+}
 @media (max-width: 700px) {
+    #header{
+        display: none;
+        }
+    #teste{
+            width: 100%;
+        }
   
     .linkmateria{
         width: 90%;
