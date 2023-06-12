@@ -138,18 +138,18 @@ var categorias = []
 function deletar(x) {
 
     //esvazia a posição que deseja deletar
-    dias[x] = ''
-    meses[x] = ''
-    anos[x] = ''
-    titulos[x] = ''
-    datas[x] = ''
-    descricoes[x] = ''
-    autores[x] = ''
-    text[x] = ''
-    categorias[x] = ''
+    dias[x] = '';
+    meses[x] = '';
+    anos[x] = '';
+    titulos[x] = '';
+    datas[x] = '';
+    descricoes[x] = '';
+    autores[x] = '';
+    text[x] = '';
+    categorias[x] = '';
 
     //fazer desaparecer o item desejado
-    document.getElementById(`noticia${x}`).style.display = 'none'
+    document.getElementById(`noticia${x}`).style.display = 'none';
 }
 
 
