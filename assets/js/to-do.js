@@ -122,6 +122,7 @@ function adicionarnot() {
         //variável para completar
         edit = -1;
     }
+    document.getElementById('categoria').value = "Esportes"
 }
 
 
