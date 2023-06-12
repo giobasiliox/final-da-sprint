@@ -331,8 +331,10 @@ a {
     }
 
     .paragrafos {
-        width: 105%;
+        width: 95%;
         font-size: 20px;
+        margin-left: 2%;
+
     }
 
     #section_credits {
@@ -431,6 +433,9 @@ a {
         height: 80%;
     }
     #para{
-        width: 100%;
+        width: 105%;
+        margin-left: 5%;
+        font-size: 20px;
+
     }
 }

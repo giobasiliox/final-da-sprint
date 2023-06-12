@@ -226,6 +226,9 @@ a {
     margin-left: 3%;
 }
 @media (max-width: 700px) {
+    body{
+        margin: 0%;
+    }
 
     #section_credits{
 
@@ -331,5 +334,20 @@ button{
 .text_noticias{
     margin-left: -7%;
 }
+#header{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+
+}
+#cima{
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    padding: 0%;
+}
+
 
 }
