@@ -119,16 +119,16 @@ function adicionarnot() {
 
 
 //declaração de variáveis
-var titulos = []
-var datas = []
-var descricoes = []
-var autores = []
-var i = 0
-var text = []
-var dias = []
-var meses = []
-var anos = []
-var categorias = []
+var titulos = [];
+var datas = [];
+var descricoes = [];
+var autores = [];
+var i = 0;
+var text = [];
+var dias = [];
+var meses = [];
+var anos = [];
+var categorias = [];
 
 
 
