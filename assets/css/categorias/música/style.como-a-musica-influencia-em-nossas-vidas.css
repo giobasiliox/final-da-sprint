@@ -453,4 +453,16 @@ a {
     #para{
         width: 100%;
     }
-}
+    #header{
+        display: none;
+    }
+    #teste{
+        width: 100%;
+    }
+    
+      } 
+      @media (min-width: 700px) {
+        #teste{
+            display: none;
+        }
+    }

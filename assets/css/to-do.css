@@ -112,7 +112,7 @@ input {
 }
 
 .rightjo {
-  margin-left: 84%;
+  margin-left: 83%;
   color: gray;
   opacity: 0.75;
   margin-bottom: -5%;
@@ -248,4 +248,16 @@ select {
   }
 
 
+  #header{
+    display: none;
+}
+#teste{
+  width: 105%;
+  margin: -3%;
+}
+  } 
+  @media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
 }
