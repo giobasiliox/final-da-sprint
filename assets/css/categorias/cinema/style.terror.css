@@ -9,8 +9,8 @@
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 300px;
-   margin-left: 60px ;
-    
+    margin-left: 60px;
+
 }
 
 .flip_card {
@@ -68,7 +68,7 @@ p {
     text-align: justify;
 }
 
-.flip_card_front_medo{
+.flip_card_front_medo {
     position: absolute;
     width: 250px;
     background-image: url("./../../../images/cinema/terror/ilha-do-medo.jfif");
@@ -80,7 +80,7 @@ p {
 }
 
 
-.flip_card_front_m3gan{
+.flip_card_front_m3gan {
     position: absolute;
     width: 250px;
     background-image: url("./../../../images/cinema/terror/m3gan.jfif");
@@ -91,7 +91,7 @@ p {
     border-radius: 20px;
 }
 
-.flip_card_front_preto{
+.flip_card_front_preto {
     position: absolute;
     width: 250px;
     background-image: url("./../../../images/cinema/terror/telefone-preto.jfif");
@@ -115,7 +115,7 @@ p {
     border-radius: 20px;
 }
 
-.flip_card_front_panico{
+.flip_card_front_panico {
     position: absolute;
     width: 250px;
     background-image: url("./../../../images/cinema/terror/panico.jfif");
@@ -149,7 +149,7 @@ p {
     border-radius: 20px;
 }
 
-.flip_card_front_nos{
+.flip_card_front_nos {
     position: absolute;
     width: 250px;
     background-image: url("../../../images/cinema/terror/nos.jfif");
@@ -159,37 +159,43 @@ p {
     backface-visibility: hidden;
     border-radius: 20px;
 }
+
 * {
-    margin:0 ;
+    margin: 0;
     padding: 0;
 }
 
 
 @media screen and (max-width:700px) {
     #header {
-        width:100%;
-        padding:0px;
+        width: 100%;
+        padding: 0px;
     }
+
     #footer {
         width: 100%;
         height: 1150px;
         margin-bottom: -2000px;
     }
+
     #containerArticle {
         display: flex;
         flex-direction: column;
         margin-left: -1px;
     }
+
     #section_1 {
         display: flex;
-        flex-direction: column; 
-        margin-top: -400px; 
+        flex-direction: column;
+        margin-top: -250px;
         margin-left: 68px;
         margin-right: auto;
     }
+
     .flip_card {
         margin-top: 70%;
     }
+
     #section_2 {
         display: flex;
         flex-direction: column;
@@ -198,7 +204,22 @@ p {
         margin-left: 68px;
         margin-right: auto;
     }
+
     #pa7 {
-        font-size: 12px;   
-       }
+        font-size: 12px;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #teste {
+        width: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+    #teste {
+        display: none;
+    }
 }
