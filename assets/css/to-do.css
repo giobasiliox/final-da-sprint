@@ -248,4 +248,16 @@ select {
   }
 
 
+  #header{
+    display: none;
+}
+#teste{
+  width: 105%;
+  margin: -3%;
+}
+  } 
+  @media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
 }

@@ -555,31 +555,5 @@ a {
     .section_sobrenos1 {
         padding-right:0;
     }
-<<<<<<< HEAD
-    #header{
-        display: none;
-    }
-    #teste{
-        width: 100%;
-    }
-    
-      } 
-      @media (min-width: 700px) {
-        #teste{
-            display: none;
-        }
-    }
-=======
-    #teste{
-        width: 100%;
-    }
-    #header{
-        display: none;
-    }
-}
-@media (min-width: 700px) {
-    #teste{
-        display: none;
-    }
-}
->>>>>>> cafabb35f80aedbcf8ab2be8a41e3c6324321e8c
+
+} 
