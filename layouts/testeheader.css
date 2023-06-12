@@ -91,6 +91,7 @@ header {
     transition: margin 0.4s;
 }
 
+
 @media (max-width: 700px) {
     #menu{
         margin-left: auto;
@@ -158,4 +159,15 @@ header {
         padding: 10px;
         border: 5px;
       }
+        #cima{
+            display: flex;
+            margin-left: 30%;
+         
+            justify-content:stretch;
+            width: 90%;
+            padding: 0%;
+            margin: 0%;
+
+}
+
 }
