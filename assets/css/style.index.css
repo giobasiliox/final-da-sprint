@@ -281,7 +281,15 @@ li:hover {
     padding-top: 3%;
     text-align: center;
 }
-@media screen and (max-device-width: 900px) and (min-device-height:400px){
+@media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 699px) and (min-device-height:400px){
+    #header{
+        display: none;
+    }
     #button_principal{
         margin: 0;  
     }
@@ -328,5 +336,8 @@ justify-content: center;
     #button_principal{
         margin-right:67%;
         margin-top: 2%;
+    }
+    #teste{
+        width: 100%;
     }
 }
