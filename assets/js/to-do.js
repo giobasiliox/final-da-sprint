@@ -43,6 +43,7 @@ function adicionarnot() {
     }
     //verifica se o botão de editar foi apertado (caso for falso)
     else if (edit < 0) {
+        var texts = [];
         //puxando os intens escritos para uma array
         dias.push(inteiro[2]);
         meses.push(inteiro[1]);
@@ -69,8 +70,13 @@ function adicionarnot() {
 
         //array dos textos adicionados
         text[i] = `<section class="noticiToDo" id="noticia${i}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i]}</h1><h2 class="titlesno">Categoria: ${categorias[i]}</h2><h5 class="titlesno">Data: ${dias[i]}/${meses[i]}/${anos[i]}</h5><p class="titlesno">Descrição: ${descricoes[i]}</p><h4 class="titlesno">Autor: ${autores[i]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i})">Editar ✏️</button> <p class="rightjo" id="new${i}">new</p></div></div></section>`;
+        texts.push(text[i]);
         //adicionar outros textos
-        document.getElementById(`todos`).innerHTML = `${text.join(' ')}`;
+
+            var text2 = "";
+            text2 = [...text];
+        text2.reverse();
+        document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
         if (i >= 2) {
             text[i - 2] = `<section class="noticiToDo" id="noticia${i - 2}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 2]}</h1><h2 class="titlesno">Categoria: ${categorias[i-2]}</h2><h5 class="titlesno">Data: ${dias[i - 2]}/${meses[i - 2]}/${anos[i - 2]}</h5><p class="titlesno">Descrição: ${descricoes[i - 2]}</p><h4 class="titlesno">Autor: ${autores[i - 2]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 2})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 2})">Editar ✏️</button> <p class="rightjo" id="new${i - 2}"></p></div></div></section>`;
         }
@@ -98,7 +104,7 @@ function adicionarnot() {
         //array dos textos adicionados
         var sac = document.getElementById(`new${i - 3}`).innerHTML;
         if (sac.toUpperCase() == 'NEW') {
-            text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 3]}</h1><h2 class="titlesno">Categoria: ${categorias[i - 3]}</h2><h5 class="titlesno">Data: ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</h5><p class="titlesno">Descrição: ${descricoes[i - 3]}</p><h4 class="titlesno">Autor: ${autores[i - 3]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button> <p class="rightjo" id="new${i - 3}"></p></div></div></section>`;
+            text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 3]}</h1><h2 class="titlesno">Categoria: ${categorias[i - 3]}</h2><h5 class="titlesno">Data: ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</h5><p class="titlesno">Descrição: ${descricoes[i - 3]}</p><h4 class="titlesno">Autor: ${autores[i - 3]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button> <p class="rightjo" id="new${i - 3}">new</p></div></div></section>`;
         }
 
         if (sac.toUpperCase() == 'EDITED') {
@@ -107,8 +113,10 @@ function adicionarnot() {
 
         text[edit] = `<section class="noticiToDo" id="noticia${edit}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[edit]}</h1><h2 class="titlesno">Categoria: ${categorias[edit]}</h2><h5 class="titlesno">Data: ${dias[edit]}/${meses[edit]}/${anos[edit]}</h5><p class="titlesno">Descrição: ${descricoes[edit]}</p><h4 class="titlesno">Autor: ${autores[edit]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${edit})">Deletar 🗑️</button><button class="butedit" onclick="editar(${edit})">Editar ✏️</button><p class="rightjo" id="new${edit}">edited</p></div></div></section>`;
         //adicionar outros textos
-
-        document.getElementById(`todos`).innerHTML = `${text.join(' ')}`;
+        var text2 = "";
+        text2 = [...text];
+        text2.reverse();
+        document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
         
 
         //variável para completar
