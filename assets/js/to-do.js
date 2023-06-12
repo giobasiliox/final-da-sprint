@@ -1,9 +1,9 @@
-var edit = -1
-var hoje = new Date()
-var diak = hoje.getDate() - 1
-var mesk = hoje.getMonth() + 1
-var anok = hoje.getFullYear()
-var atual = new Date(`${anok}-${mesk}-${diak}`)
+var edit = -1;
+var hoje = new Date();
+var diak = hoje.getDate() - 1;
+var mesk = hoje.getMonth() + 1;
+var anok = hoje.getFullYear();
+var atual = new Date(`${anok}-${mesk}-${diak}`);
 
 
 
@@ -12,46 +12,46 @@ var atual = new Date(`${anok}-${mesk}-${diak}`)
 //function para adição de noticia 
 function adicionarnot() {
     //variáveis pegar valor escrito
-    var titulo = document.getElementById('titulo').value
-    var data = document.getElementById('data').value
-    var descricao = document.getElementById('descrição').value
-    var autor = document.getElementById('autor').value
-    var categoria = document.getElementById('categoria').value
+    var titulo = document.getElementById('titulo').value;
+    var data = document.getElementById('data').value;
+    var descricao = document.getElementById('descrição').value;
+    var autor = document.getElementById('autor').value;
+    var categoria = document.getElementById('categoria').value;
     //variável separar a data
-    var inteiro = data.split('-')
+    var inteiro = data.split('-');
 
     //verificar se as caixas de textos estão vazias
     if (titulo == '' || data == '' || descricao == '' || autor == '' || new Date(data) < new Date(atual) || categoria == '') {
         if (titulo == '') {
-            alert('Insira um titulo!')
+            alert('Insira um titulo!');
         }
         if (data == '') {
-            alert('Insira uma data!')
+            alert('Insira uma data!');
         }
         if (descricao == '') {
-            alert('Insira uma descrição!')
+            alert('Insira uma descrição!');
         }
         if (autor == '') {
-            alert('Insira um autor')
+            alert('Insira um autor');
         }
         if (new Date(data) < new Date(atual)) {
-            alert('Insira uma data valida!')
+            alert('Insira uma data valida!');
         }
         if (categoria == '') {
-            alert('Escolha uma categoria!')
+            alert('Escolha uma categoria!');
         }
     }
     //verifica se o botão de editar foi apertado (caso for falso)
     else if (edit < 0) {
         //puxando os intens escritos para uma array
-        dias.push(inteiro[2])
-        meses.push(inteiro[1])
-        anos.push(inteiro[0])
-        titulos.push(titulo)
-        datas.push(data)
-        descricoes.push(descricao)
-        autores.push(autor)
-        categorias.push(categoria)
+        dias.push(inteiro[2]);
+        meses.push(inteiro[1]);
+        anos.push(inteiro[0]);
+        titulos.push(titulo);
+        datas.push(data);
+        descricoes.push(descricao);
+        autores.push(autor);
+        categorias.push(categoria);
 
         //esvaziando variaveis
         titulo = '';
