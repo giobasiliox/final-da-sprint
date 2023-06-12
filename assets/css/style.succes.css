@@ -78,10 +78,18 @@ button {
     margin-top: -5px;
     margin-bottom: -50px;
 }
+
+@media (min-width: 700px){
+    #teste{
+        display: none;
+    }
+}
 @media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header{
+        display: none;
+    }
+    #teste{
         width: 100%;
-        padding: 0;
     }
     #footer{
         width: 100%;

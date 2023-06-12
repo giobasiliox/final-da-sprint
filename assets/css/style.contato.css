@@ -117,6 +117,8 @@ p {
     padding-left: 800px;
     margin-top: -90px;
 }
+
+
 @media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header{
         width: 100%;
