@@ -375,6 +375,8 @@ a {
         background-color: #ffffff;
         width: 90%;
         margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
   #article_comentarios{
     width: 70%;
@@ -399,11 +401,13 @@ a {
 #header {
     width: 100%;
     padding: 0;
+    margin-bottom: 0%;
 
 }
 #section_background{
  width: 100%;
  margin-bottom: -100%;
+ margin-top: 0%;
 
 } 
 #todas_noticias{
@@ -463,5 +467,5 @@ a {
     margin-left: -7%;
 }
 
-  }
+  } 
   

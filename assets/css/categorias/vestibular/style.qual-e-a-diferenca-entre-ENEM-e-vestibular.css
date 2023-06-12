@@ -241,6 +241,8 @@ a {
     .section_diferenca{
         width: 90%;
         text-align: justify;
+        margin-left: -3%;
+        margin-right: auto;
     }
     p{
         text-align: justify;
@@ -248,6 +250,8 @@ a {
     .section_diferenca2{
         width: 90%;
         text-align: justify;
+        margin-left: -3%;
+        margin-right: auto;
     }
 
 #todas_noticias{

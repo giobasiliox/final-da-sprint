@@ -212,9 +212,18 @@ input {
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
 
+@media (min-width: 700px) {
 
+  #teste{
+    display: none;
+    width: 500%;
+  }
+  #segundo{
+    display: none;
+  }
+}
 @media (max-width: 700px){
-  
+ 
 h1{
 
   margin-left: 80%;
@@ -223,10 +232,15 @@ h1{
   margin-bottom: 4%;
   
 }
+#suma{
+  display: none;
+}
 #container{
-  font-size: 10px;
-  margin-left: 15%;
-  margin-top: -2%;
+display: none;
+}
+#teste{
+  width: 150%;
+
 }
   #link{
     margin-top: 10%;
