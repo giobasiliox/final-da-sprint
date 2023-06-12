@@ -340,4 +340,16 @@ button{
     width: 90%;
    margin-left: 6%;
 }
-} 
+#header{
+    display: none;
+}
+#teste{
+    width: 100%;
+}
+
+  } 
+  @media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
+}
