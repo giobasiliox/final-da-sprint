@@ -158,22 +158,12 @@ function deletar(x) {
 
 //fuction para editar o item desejado 
 function editar(y) {
-    document.getElementById('titulo').value = titulos[y]
-    document.getElementById('data').value = datas[y]
-    document.getElementById('categoria').value = categorias[y]
-    document.getElementById('descrição').value = descricoes[y]
-    document.getElementById('autor').value = autores[y]
-    edit = y
+    document.getElementById('titulo').value = titulos[y];
+    document.getElementById('data').value = datas[y];
+    document.getElementById('categoria').value = categorias[y];
+    document.getElementById('descrição').value = descricoes[y];
+    document.getElementById('autor').value = autores[y];
+    edit = y;
 
-    text[y] = `<section class="noticiToDo" id="noticia${y}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[y]}</h1><h2 class="titlesno">Categoria: ${categorias[y]}</h2><h5 class="titlesno">Data: ${dias[y]}/${meses[y]}/${anos[y]}</h5><p class="titlesno">Descrição: ${descricoes[y]}</p><h4 class="titlesno">Autor: ${autores[y]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${y})">Deletar 🗑️</button><button class="butedit" onclick="editar(${y})">Editar ✏️</button> <p class="rightjo" id="new${y}">edited</p></div></div></section>`
+    text[y] = `<section class="noticiToDo" id="noticia${y}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[y]}</h1><h2 class="titlesno">Categoria: ${categorias[y]}</h2><h5 class="titlesno">Data: ${dias[y]}/${meses[y]}/${anos[y]}</h5><p class="titlesno">Descrição: ${descricoes[y]}</p><h4 class="titlesno">Autor: ${autores[y]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${y})">Deletar 🗑️</button><button class="butedit" onclick="editar(${y})">Editar ✏️</button> <p class="rightjo" id="new${y}">edited</p></div></div></section>`;
 }
-
-
-
-
-
-
-
-
-
-
