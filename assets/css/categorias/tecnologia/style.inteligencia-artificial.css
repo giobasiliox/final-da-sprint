@@ -221,12 +221,20 @@ a {
 .class_h3 {
     margin-left: 45px;
 }
+
+@media (min-width: 700px){
+    #teste{
+        display: none;
+    }
+}
 @media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header {
-        width: 100%;
-        padding: 0;
+        display: none;
     }
-
+    #teste{
+        width: 100%;
+    }
+    
     #footer {
         width: 100%;
         padding: 0;
@@ -358,8 +366,5 @@ a {
     }
     #para{
         width: 100%;
-    }
-    #teste{
-        display: none;
     }
 }
