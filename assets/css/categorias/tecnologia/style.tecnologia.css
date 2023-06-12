@@ -610,5 +610,8 @@ a {
     .text_noticias{
         height: 80%;
     }
+    #teste{
+        display: none;
+    }
 
 }
