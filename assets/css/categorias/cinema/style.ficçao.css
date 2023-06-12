@@ -183,7 +183,7 @@ p {
     #section_1 {
         display: flex;
         flex-direction: column; 
-        margin-top: -400px;  
+        margin-top: -250px;  
         margin-left: 68px;
         margin-right: auto;
     }
@@ -201,4 +201,16 @@ p {
     #pa1{
         font-size: 12px;   
        }
+       #header {
+        display: none;
+    }
+
+    #teste {
+        width: 100%;
+    }
+}
+@media (min-width: 700px) {
+    #teste {
+        display: none;
+    }
 }
