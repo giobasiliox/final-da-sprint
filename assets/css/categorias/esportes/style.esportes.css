@@ -405,4 +405,18 @@ font-size: 20px;
     margin-top: -170px;
 }
 
+#header{
+    display: none;
+}
+#teste{
+    width: 100%;
+    margin-bottom: 52%;
+    margin-top: 8%; 
+}
+
+  } 
+  @media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
 }
