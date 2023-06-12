@@ -555,4 +555,15 @@ a {
     .section_sobrenos1 {
         padding-right:0;
     }
+    #teste{
+        width: 100%;
+    }
+    #header{
+        display: none;
+    }
+}
+@media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
 }
