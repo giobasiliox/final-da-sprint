@@ -122,6 +122,10 @@ function adicionarnot() {
         //variável para completar
         edit = -1;
     }
+    var det02 = document.getElementById(`new${i-2}`).innerHTML
+        if (det02.toUpperCase() == 'EDITED') {
+            text[i-3] = text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 3]}</h1><h2 class="titlesno">Categoria: ${categorias[i - 3]}</h2><h5 class="titlesno">Data: ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</h5><p class="titlesno">Descrição: ${descricoes[i - 3]}</p><h4 class="titlesno">Autor: ${autores[i - 3]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button> <p class="rightjo" id="new${i - 3}"></p></div></div></section>`;
+        }
 }
 
 
