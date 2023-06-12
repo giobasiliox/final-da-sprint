@@ -242,4 +242,17 @@ body {
     .borda_comentarios {
         width: 85%;
     }
+    #header{
+        display: none;
+        
+    }
+    #teste{
+        width: 100%;
+    }
+}
+@media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
+   
 }
