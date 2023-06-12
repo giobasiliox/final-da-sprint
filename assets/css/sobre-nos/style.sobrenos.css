@@ -266,15 +266,19 @@ body {
 }
 .foto{
     border-radius: 100%;
+    margin-top: 3%;
 }
 #fotof{
-    height: 56%;
+    height: 53%;
+    margin-top: 3%;
 }
 #fotog{
-    height: 55%;
+    height: 53%;
+    margin-top: 3%;
 }
 #fotov{
     height: 53%;
+    margin-top: 3%;
 }
 
 @media (max-width: 700px) {
@@ -289,8 +293,9 @@ body {
         
     }
 
+
     #ft {
-        width: 122%;
+    width: 122%;
     padding: 0%;
     margin: -9%;
     margin-top: 25%;
@@ -333,6 +338,7 @@ body {
         text-align: justify;
     }
 
+    
     #aff {
         height: 3%;
     }
@@ -366,7 +372,7 @@ body {
         margin-left: 0%;
     }
     .p{
-        margin-left: -12%;
+        margin-left: 0%;
     }
     .h1{
         margin-left: -12%;
