@@ -79,21 +79,21 @@ function adicionarnot() {
     //verifica se o botão de editar foi apertado (caso verdadeiro)
     else if (edit > -1) {
         //puxando os intens escritos para uma array
-        dias[edit] = inteiro[2]
-        meses[edit] = inteiro[1]
-        anos[edit] = inteiro[0]
-        titulos[edit] = titulo
-        datas[edit] = data
-        descricoes[edit] = descricao
-        autores[edit] = autor
-        categorias[edit] = categoria
+        dias[edit] = inteiro[2];
+        meses[edit] = inteiro[1];
+        anos[edit] = inteiro[0];
+        titulos[edit] = titulo;
+        datas[edit] = data;
+        descricoes[edit] = descricao;
+        autores[edit] = autor;
+        categorias[edit] = categoria;
 
         //esvaziando as caixas de texto
-        document.getElementById('titulo').value = ''
-        document.getElementById('data').value = ''
-        document.getElementById('descrição').value = ''
-        document.getElementById('autor').value = ''
-        document.getElementById('categoria').value = ''
+        document.getElementById('titulo').value = '';
+        document.getElementById('data').value = '';
+        document.getElementById('descrição').value = '';
+        document.getElementById('autor').value = '';
+        document.getElementById('categoria').value = '';
 
         //array dos textos adicionados
         var sac = document.getElementById(`new${i - 3}`).innerHTML;
