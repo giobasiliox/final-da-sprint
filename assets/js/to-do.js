@@ -54,27 +54,27 @@ function adicionarnot() {
         categorias.push(categoria)
 
         //esvaziando variaveis
-        titulo = ''
-        data = ''
-        descricao = ''
-        autor = ''
-        categoria = ''
+        titulo = '';
+        data = '';
+        descricao = '';
+        autor = '';
+        categoria = '';
 
         //esvaziando as caixas de texto
-        document.getElementById('titulo').value = ''
-        document.getElementById('data').value = ''
-        document.getElementById('descrição').value = ''
-        document.getElementById('autor').value = ''
-        document.getElementById('categoria').value = ''
+        document.getElementById('titulo').value = '';
+        document.getElementById('data').value = '';
+        document.getElementById('descrição').value = '';
+        document.getElementById('autor').value = '';
+        document.getElementById('categoria').value = '';
 
         //array dos textos adicionados
-        text[i] = `<section class="noticiToDo" id="noticia${i}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i]}</h1><h2 class="titlesno">Categoria: ${categorias[i]}</h2><h5 class="titlesno">Data: ${dias[i]}/${meses[i]}/${anos[i]}</h5><p class="titlesno">Descrição: ${descricoes[i]}</p><h4 class="titlesno">Autor: ${autores[i]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i})">Editar ✏️</button> <p class="rightjo" id="new${i}">new</p></div></div></section>`
+        text[i] = `<section class="noticiToDo" id="noticia${i}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i]}</h1><h2 class="titlesno">Categoria: ${categorias[i]}</h2><h5 class="titlesno">Data: ${dias[i]}/${meses[i]}/${anos[i]}</h5><p class="titlesno">Descrição: ${descricoes[i]}</p><h4 class="titlesno">Autor: ${autores[i]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i})">Editar ✏️</button> <p class="rightjo" id="new${i}">new</p></div></div></section>`;
         //adicionar outros textos
         document.getElementById(`todos`).innerHTML = `${text.join(" ")}`;
         if (i >= 2) {
-            text[i - 2] = `<section class="noticiToDo" id="noticia${i - 2}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 2]}</h1><h2 class="titlesno">Categoria: ${categorias[i-2]}</h2><h5 class="titlesno">Data: ${dias[i - 2]}/${meses[i - 2]}/${anos[i - 2]}</h5><p class="titlesno">Descrição: ${descricoes[i - 2]}</p><h4 class="titlesno">Autor: ${autores[i - 2]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 2})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 2})">Editar ✏️</button> <p class="rightjo" id="new${i - 2}"></p></div></div></section>`
+            text[i - 2] = `<section class="noticiToDo" id="noticia${i - 2}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 2]}</h1><h2 class="titlesno">Categoria: ${categorias[i-2]}</h2><h5 class="titlesno">Data: ${dias[i - 2]}/${meses[i - 2]}/${anos[i - 2]}</h5><p class="titlesno">Descrição: ${descricoes[i - 2]}</p><h4 class="titlesno">Autor: ${autores[i - 2]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 2})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 2})">Editar ✏️</button> <p class="rightjo" id="new${i - 2}"></p></div></div></section>`;
         }
-        i++
+        i++;
     }
     //verifica se o botão de editar foi apertado (caso verdadeiro)
     else if (edit > -1) {
