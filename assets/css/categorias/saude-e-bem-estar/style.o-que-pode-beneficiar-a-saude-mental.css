@@ -291,8 +291,15 @@ body {
     #teste{
         width: 100%;
     }
+    #div_gif{
+        margin-left: 28%;
     
+      }
+      #pimg{
+        margin-left: auto;
+        margin-right: auto;
       } 
+    }
       @media (min-width: 700px) {
         #teste{
             display: none;

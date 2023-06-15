@@ -377,6 +377,7 @@ a {
         margin-top: 15%;
         margin-left: auto;
         margin-right: auto;
+        padding: 10px;
     }
   #article_comentarios{
     width: 70%;
@@ -400,8 +401,9 @@ a {
 }
 #header {
     width: 100%;
-    padding: 0;
-    margin-bottom: 15%;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    overflow-x: auto;
+
 
 }
 #section_background{
@@ -412,7 +414,7 @@ a {
 } 
 #todas_noticias{
     width: 90%;
-    margin-left: 2%;
+    margin-left: 5%;
 
 }
 
@@ -440,8 +442,9 @@ a {
     width: 90%;
 }
 #p_2{
-    width: 90%;
-    margin-left: 3%;
+   
+    width: 80%;
+    margin-left: 10%;
 }
 .text_publicado{
     margin-left: -10%;

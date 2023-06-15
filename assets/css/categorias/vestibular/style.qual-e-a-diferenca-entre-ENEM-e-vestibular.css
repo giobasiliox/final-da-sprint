@@ -234,7 +234,7 @@ a {
 
         margin-left: 28%;
         width: 50%;
-        margin-right: 0%;
+        margin-right: 0px;
 
     }
     #text_date{
@@ -354,6 +354,10 @@ button{
 }
 #teste{
     width: 100%;
+}
+#creditos{
+    width: 50%;
+    margin-right: 0px;
 }
 
   } 

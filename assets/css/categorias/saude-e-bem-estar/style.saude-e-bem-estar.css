@@ -555,16 +555,14 @@ a {
     .section_sobrenos1 {
         padding-right:0;
     }
-<<<<<<< HEAD
 
-} 
-=======
     #header{
         display: none;
     }
     #teste{
         width: 100%;
     }
+  
 }
 
 @media (min-width: 700px) {
@@ -572,4 +570,4 @@ a {
         display: none;
     }
 }
->>>>>>> 619eabfb3881fa32aaccc950901aee5fbf3ede6e
+
