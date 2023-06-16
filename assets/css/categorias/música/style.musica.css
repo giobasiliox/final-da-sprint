@@ -357,8 +357,9 @@ a {
     }
 
     .section_sobrenos {
-        margin: 0;
+        margin: 5%;
         width: 96%;
+        padding:0;
     }
 
     .section_sobrenos1 {
