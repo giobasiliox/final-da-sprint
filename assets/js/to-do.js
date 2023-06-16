@@ -35,7 +35,6 @@ function adicionarnot() {
     //variável separar a data
     var inteiro = data.split('-');
 
-    console.log(categoria)
 
     if (categoria == "Esportes" || categoria == "Tecnologia" || categoria == "Saúde e bem estar" || categoria == "Cinema" || categoria == "Vestibular" || categoria == "Música") {
         if (titulo == '' || data == '' || descricao == '' || autor == '' || new Date(data) < new Date(atual) || categoria == '') {
@@ -87,6 +86,8 @@ function adicionarnot() {
             document.getElementById('autor').value = '';
             document.getElementById('categoria').value = '';
 
+
+
             //array dos textos adicionados
             text[i] = `<section class="noticiToDo" id="noticia${i}">
                 <div class="separator">
@@ -103,6 +104,8 @@ function adicionarnot() {
                 </div>
             </section>`;
 
+
+            
             //adicionar outros textos
             var text2 = [];
             text2 = [...text];
@@ -112,21 +115,24 @@ function adicionarnot() {
 
 
             // retirar o ''novo'' de noticias acima de 3
-            if (i >= 2) {
-                text[i - 2] = `<section class="noticiToDo" id="noticia${i - 2}">
-                    <div class="separator">
-                        <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 2]}</h1>
-                        <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 2]}</p>
-                        <p class="titlesno"><strong>Data:</strong> ${dias[i - 2]}/${meses[i - 2]}/${anos[i - 2]}</p>
-                        <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 2]}</p>
-                        <p class="titlesno"><strong>Autor:</strong> ${autores[i - 2]}</p>
-                        <div class="flexin">
-                            <button class="butdel" onclick="deletar(${i - 2})">Deletar 🗑️</button>
-                            <button class="butedit" onclick="editar(${i - 2})">Editar ✏️</button>
-                            <p class="rightjo" id="new${i - 2}"></p>
+            if (i > 2) {
+                var sac = document.getElementById(`new${i - 3}`).innerHTML;
+                if (sac.toUpperCase() == 'NOVO') {
+                    text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}">
+                        <div class="separator">
+                            <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 3]}</h1>
+                            <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 3]}</p>
+                            <p class="titlesno"><strong>Data:</strong> ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</p>
+                            <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 3]}</p>
+                            <p class="titlesno"><strong>Autor:</strong> ${autores[i - 3]}</p>
+                            <div class="flexin">
+                                <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
+                                <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
+                                <p class="rightjo" id="new${i - 3}"></p>
+                            </div>
                         </div>
-                    </div>
-                </section>`;
+                    </section>`;
+                }
             }
 
 
@@ -174,7 +180,7 @@ function adicionarnot() {
                             <div class="flexin">
                                 <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
                                 <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
-                                <p class="rightjo" id="new${i - 3}">novo</p>
+                                <p class="rightjo" id="new${i - 3}"></p>
                             </div>
                         </div>
                     </section>`;
@@ -199,6 +205,8 @@ function adicionarnot() {
                     </section>`;
                 }
             }
+
+
             //array dos textos adicionados
             text[edit] = `<section class="noticiToDo" id="noticia${edit}">
                 <div class="separator">
@@ -214,6 +222,8 @@ function adicionarnot() {
                     </div>
                 </div>
             </section>`;
+
+
 
             //adicionar outros textos
             var text2 = "";
@@ -275,6 +285,8 @@ function editar(y) {
     document.getElementById('descrição').value = descricoes[y];
     document.getElementById('autor').value = autores[y];
     edit = y;
+
+
 
     text[y] = `<section class="noticiToDo" id="noticia${y}">
         <div class="separator">
