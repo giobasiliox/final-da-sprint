@@ -225,6 +225,9 @@ p {
     margin-left: 45px;
     font-family: Arial, Helvetica, sans-serif;
 }
+#art{
+    margin-left: 15%;
+}
 @media (min-width: 700px){
     #teste{
         display: none;
