@@ -1,50 +1,39 @@
-/* ediçao h1*/
+/* ediçao do h1*/
 h1 {
     text-align: center;
     color: rgb(29, 29, 29);
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
-/* ediçao paragrafo */
+/* ediçao do paragrafo */
 p {
     text-align: left;
     color: rgb(0, 0, 0);
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+
 }
-/* ediçao do body*/
+/* ediçao do boddy*/
 body {
+    background-color: #ffff;
     margin: 0;
+    font-family: Arial;
 }
-/* ediçao da imagem diferença */
-#imgdiferenca {
+/* ediçao imagem para que serve */
+#imgpqserve {
     margin-top: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
+    
 }
-/* ediçao section imagem diferença*/
-#section_imgdiferenca {
+/* ediçao section imagem para que serve */
+#section_imgpqserve {
     text-align: center;
     padding-top:80px;
-}
-/* ediçao section diferença */
-.section_diferenca {
-    margin: auto;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
     width: 50%;
-    border-radius: 10px;
-    box-shadow: 10px;
-    font-size: medium;
-    display: flex;
+    margin-left: 350px;
 }
-/* ediçao div diferença */
-#div_diferenca {
-    display: flex;
-    padding: 10px;
-}
-/* ediçao section diferença 2 */
-.section_diferenca2 {
+/* ediçao section para que serve */
+.section_pqserve {
     margin: auto;
     margin-top: 20px;
     padding: 10px;
@@ -53,78 +42,107 @@ body {
     border-radius: 10px;
     box-shadow: 10px;
     display: flex;
-    font-family: Arial;
-    font-size: medium;
+    
 }
-/* ediçao div diferença 2 */
-#div_diferenca2 {
+/*ediçao div para que serve*/
+#div_pqserve {
     display: flex;
     padding: 10px;
+    margin-top: -20px;
+    font-size: 18px;
 }
-/* ediçao titulo diferença */
-#title_diferenca {
+/* ediçao section para que serve 2 */
+.section_pqserve2 {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+}
+/* ediçao div para que serve 2 */
+#div_pqserve2 {
+    display: flex;
+    padding: 10px;
+    margin-top: -20px;
+    font-size: 18px;
+}
+/* ediçao titulo para que serve */
+#title_pqserve {
     text-align: center;
     padding-left: 10px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-/* ediçao background */
+/* ediçao section background */
 #section_background {
-    margin-top: 200px;
+    background-image: url("../../../images/Vestibular/pqserve01.jfif");
+    margin-top: -100px;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* ediçao texto central */
-#texto-central {
-    text-align: center;
-    font-size: x-large;
     color: white;
 }
-/* ediçao do p_1*/
-.p_1{
+/*  ediçao texto central */
+#texto-central {
+    padding-top: 290px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    
+}
+/* ediçao p_1*/
+.p_1 {
     text-align: center;
     color: white;
     font-family: Arial;
-    font-size: medium;
     padding-top: 15px;
 }
 
-/* ediçao imagem do chapeu */
-#img_chapeu{
+/* ediçao para que serve */
+#pqserve {
     margin-left: 50px;
 }
 
+/* ediçao h3*/
+h3 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: -150px;
+}
+
+/* ediçao texto creditos */
 #text_credits {
     color: gray;
     font-size: 13px;
-
+    margin-top: -235px;
+    
 }
-
+/* ediçao texto publicado */
 .text_publicado {
     padding-left: 205px;
     padding-bottom: 15px;
 }
-
+/* ediçao texto data*/
 .text_date {
     padding-left: 10px;
     color: gray;
 }
-
+/* ediçao section creditos */
 #section_credits {
     margin-left: 365px;
     
-}
 
-h3 {
-    text-align: center;
-    color: rgb(29, 29, 29);
-    font-family: Arial;
-    font-size: xx-large;
-    margin-top: -190px;
-    padding-bottom: 10px;
-    
 }
-
+/* ediçao footer*/
+#footer {
+    height: 550px;
+}
+/* ediçao section noticias */
 .section_noticias {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -132,10 +150,11 @@ h3 {
     margin-top: 40px;
     padding-top: 15px;
     padding-left: 15px;
-    width: 940px;
     margin-left: 15px;
+    width: 75%;
+    color: black;
 }
-
+/* ediçao imagem noticias */
 .img_noticias {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -157,6 +176,7 @@ h3 {
 
 .icon_text {
     display: flex;
+    color: black;
 }
 
 .img_stars {
@@ -197,10 +217,10 @@ h3 {
 .title_noticias {
     text-align: left;
 }
- 
+
 a {
     text-decoration: none;
-}
+} 
 
 #article_comentarios {
     display: flex;
@@ -220,40 +240,31 @@ a {
     padding-bottom: 20px;
 }
 #ari{
-    margin-left: 11%;
+    margin-left: 15%;
 }
 .title_categorias{
     margin-left: 3%;
 }
 @media (max-width: 700px) {
-    body{
-        margin: 0%;
-    }
 
     #section_credits{
 
         margin-left: 28%;
-        width: 50%;
-        margin-right: 0px;
 
     }
-    #text_date{
-     width: 70%;
-     margin-left: -5%;
-    }
-    .section_diferenca{
-        width: 90%;
+    .section_pqserve{
+        width: 85%;
         text-align: justify;
-        margin-left: -3%;
+        margin-left: 7%;
         margin-right: auto;
     }
     p{
         text-align: justify;
     }
-    .section_diferenca2{
-        width: 90%;
+    .section_pqserve2{
+        width: 85%;
         text-align: justify;
-        margin-left: -3%;
+        margin-left: 7%;
         margin-right: auto;
     }
 
@@ -263,11 +274,11 @@ a {
 
 }
 .section_noticias{
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -4%;
+    margin-left: -5%;
 }
 #estreilas{
     display: flex;
@@ -284,7 +295,7 @@ a {
 }
 #article_comentarios{
     width: 85%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 50%;
     margin-bottom: 5%;
   }
@@ -303,10 +314,22 @@ a {
     margin: 0;
     height: 1150px;
 }
-hr{
-    margin-left: -13%;
+#div_pqserve{
+    display: flex;
+    flex-direction: column;
 }
+#pqserve{
+    margin-left: 2%;
+    width: 95%;
+}
+#ardimg{
+    margin-left: -85%;
+    width: 100%;
 
+}
+.title_categorias{
+    margin-left: 23%;
+}
 .title_categorias{
     margin-right: 50%;
     margin-left: -60%;
@@ -316,9 +339,12 @@ button{
     width: 100%;
     margin: 0%;
 }
+.textou{
+    width: 90%;
+}
 #ari{
     width: 90%;
-    margin-left: 8%;
+    margin-left: 7%;
     margin-right: 0%;
 }
 .img_textN{
@@ -335,31 +361,18 @@ button{
     margin-left: -7%;
 }
 #header{
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0%;
-
-}
-#cima{
-    width: 90%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-    padding: 0%;
-}
-
-#header{
     display: none;
 }
 #teste{
     width: 100%;
 }
-#creditos{
-    width: 50%;
-    margin-right: 0px;
+P {
+    margin:5%;
+    margin-right:7%;
+   }
+#section_imgdiferenca {
+    margin-left:35%;
 }
-
   } 
   @media (min-width: 700px) {
     #teste{
