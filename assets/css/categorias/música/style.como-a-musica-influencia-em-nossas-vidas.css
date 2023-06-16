@@ -462,6 +462,10 @@ a {
     #teste {
         width: 100%;
     }
+    #title_membros{
+      width: 45%;
+      margin-left: 20%;
+    }
 
 }
 
