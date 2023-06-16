@@ -326,8 +326,9 @@ a {
     color: gray;
 }
 #art{
-    margin-left: 10%;
+    margin-left: 13%;
 }
+
 @media screen and (max-width:600px) {
     #header {
         width: 100%;
@@ -429,6 +430,12 @@ font-size: 20px;
 }
 .text_date{
     margin-left: 40%
+}
+#art{
+    margin-right: 10%;
+}
+.icon_text{
+   margin-left: -70%;
 }
 
   } 

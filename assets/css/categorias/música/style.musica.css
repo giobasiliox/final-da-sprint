@@ -47,9 +47,6 @@ body {
     box-shadow: 10px;
     display: flex;
 }
-#art {
-    margin-left: 11%;
-}
 #div_sobrenos {
     display: flex;
     padding: 10px;
@@ -103,7 +100,7 @@ body {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 80px;
-    margin-left: 17%;
+    margin-left: 15%;
 }
 
 .section_membros:hover {
@@ -442,7 +439,9 @@ a {
         font-size: 20px;
 
     }
-
+#title_membros {
+    margin-left: -2%;
+}
     #header{
         display: none;
     }

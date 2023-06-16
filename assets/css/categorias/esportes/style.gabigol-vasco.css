@@ -108,6 +108,7 @@ body {
     padding-top:50px;
     text-align: center;
     margin-right: 300px;
+    margin-left: -11%;
 }
 
 .section_membros:hover {
@@ -383,6 +384,12 @@ h3{
 }
 #aris{
     margin-top: 30%;
+}
+#art{
+    margin-right: 10%;
+}
+.icon_text{
+   margin-left: -70%;
 }
 
 }
