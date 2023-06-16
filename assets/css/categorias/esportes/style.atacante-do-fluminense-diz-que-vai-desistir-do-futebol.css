@@ -399,4 +399,13 @@ h3 {
     .section_sobrenos {
         width: 90%;
     }
+    h3{
+        margin-top: 10%;
+    }
+    #ar0{
+        margin-top: 30%;
+    }
+    #h9{
+        margin-top: 30%;
+    }
 }
