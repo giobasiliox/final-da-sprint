@@ -336,7 +336,7 @@ a {
         font-size: 20px;
         margin-left: -220px;
     }
-    #text_creditss {
+    #text_creditss { 
         margin-left: -67px;
         font-size: 20px;
         color: gray;
@@ -348,17 +348,28 @@ a {
     width: 70%;
     margin-left: 30%;
 }
-.section_noticias {
-    width: 70%;
-    padding: 12%;
-  
+.section_noticias{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#estreilas{
+    display: flex;
+    margin-left: 33%;
+    margin-bottom: 4%;
+}
+.icon_text{
+    display: flex;
+    flex-direction: column;
+   margin-left: -15%;
 }
 .img_textN{
     display: flex;
     flex-direction: column;
 }
-.icon_text{
-    margin-left: -70%;
+.text_publicado{
+    margin-left: -23%;
 }
 #article_comentarios{
     width: 85%;
@@ -411,7 +422,10 @@ font-size: 20px;
 #teste{
     width: 100%;
     margin-bottom: 52%;
-    margin-top: 8%; 
+    margin-top: 0%; 
+}
+.text_date{
+    margin-left: 40%
 }
 
   } 
