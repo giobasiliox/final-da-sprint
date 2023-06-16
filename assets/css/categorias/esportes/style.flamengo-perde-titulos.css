@@ -319,9 +319,7 @@ h3 {
     font-size: 12px;
     color: gray;
 }
-#art{
-    margin-left: 10%;
-}
+
 
 @media (min-width: 700px){
     #teste{
@@ -402,5 +400,9 @@ h3 {
     }
     .icon_text{
        margin-left: -70%;
+    }
+    #title_membros{
+        margin-left: -79%;
+        width: 60%;
     }
 }

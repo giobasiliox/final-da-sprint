@@ -322,9 +322,7 @@ h3 {
     font-size: 12px;
     color: gray;
 }
-#art{
-    margin-left: 10%;
-}
+
 
 @media (min-width: 700px){
     #teste{
@@ -350,7 +348,7 @@ h3 {
     }
 
     #title_membros {
-        margin-left: -55%;
+        margin-left: -79%;
         width: 50%;
     }
 
