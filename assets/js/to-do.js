@@ -4,6 +4,18 @@ var diak = hoje.getDate() - 1;
 var mesk = hoje.getMonth() + 1;
 var anok = hoje.getFullYear();
 var atual = new Date(`${anok}-${mesk}-${diak}`);
+var titulos = [];
+var datas = [];
+var descricoes = [];
+var autores = [];
+var i = 0;
+var text = [];
+var dias = [];
+var meses = [];
+var anos = [];
+var categorias = [];
+var editarkk = "editar"
+var addkk = "adicionar"
 
 
 
@@ -73,7 +85,7 @@ function adicionarnot() {
         texts.push(text[i]);
         //adicionar outros textos
 
-        var text2 = "";
+        var text2 = [];
         text2 = [...text];
         text2.reverse();
         document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
@@ -132,22 +144,6 @@ function adicionarnot() {
 
 
 
-//declaração de variáveis
-var titulos = [];
-var datas = [];
-var descricoes = [];
-var autores = [];
-var i = 0;
-var text = [];
-var dias = [];
-var meses = [];
-var anos = [];
-var categorias = [];
-
-
-
-
-
 //function para deletar
 function deletar(x) {
 
@@ -182,6 +178,3 @@ function editar(y) {
     text[y] = `<section class="noticiToDo" id="noticia${y}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[y]}</h1><h2 class="titlesno">Categoria: ${categorias[y]}</h2><h5 class="titlesno">Data: ${dias[y]}/${meses[y]}/${anos[y]}</h5><p class="titlesno">Descrição: ${descricoes[y]}</p><h4 class="titlesno">Autor: ${autores[y]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${y})">Deletar 🗑️</button><button class="butedit" onclick="editar(${y})">Editar ✏️</button> <p class="rightjo" id="new${y}">edited</p></div></div></section>`;
     document.getElementById('addbut').innerHTML = editarkk
 }
-
-var editarkk = "editar"
-var addkk = "adicionar"
