@@ -385,5 +385,15 @@ h3{
 #aris{
     margin-top: 30%;
 }
+#art{
+    margin-right: 10%;
+}
+.icon_text{
+   margin-left: -70%;
+}
+#title_membros{
+    margin-left: -79%;
+    width: 60%;
+}
 
 }
