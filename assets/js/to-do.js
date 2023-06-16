@@ -84,7 +84,7 @@ function adicionarnot() {
             document.getElementById('data').value = '';
             document.getElementById('descrição').value = '';
             document.getElementById('autor').value = '';
-            document.getElementById('categoria').value = '';
+            document.getElementById('categoria').value = "Esportes"
 
 
 
@@ -105,36 +105,35 @@ function adicionarnot() {
             </section>`;
 
 
-            
-            //adicionar outros textos
-            var text2 = [];
-            text2 = [...text];
-            text2.reverse();
-            document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
-
-
 
             // retirar o ''novo'' de noticias acima de 3
             if (i > 2) {
                 var sac = document.getElementById(`new${i - 3}`).innerHTML;
                 if (sac.toUpperCase() == 'NOVO') {
                     text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}">
-                        <div class="separator">
-                            <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 3]}</h1>
-                            <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 3]}</p>
-                            <p class="titlesno"><strong>Data:</strong> ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</p>
-                            <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 3]}</p>
-                            <p class="titlesno"><strong>Autor:</strong> ${autores[i - 3]}</p>
-                            <div class="flexin">
-                                <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
-                                <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
-                                <p class="rightjo" id="new${i - 3}"></p>
-                            </div>
-                        </div>
-                    </section>`;
+            <div class="separator">
+                <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 3]}</h1>
+                <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 3]}</p>
+                <p class="titlesno"><strong>Data:</strong> ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</p>
+                <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 3]}</p>
+                <p class="titlesno"><strong>Autor:</strong> ${autores[i - 3]}</p>
+                <div class="flexin">
+                    <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
+                    <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
+                    <p class="rightjo" id="new${i - 3}"></p>
+                </div>
+            </div>
+        </section>`;
                 }
             }
 
+
+
+            //adicionar outros textos
+            var text2 = [];
+            text2 = [...text];
+            text2.reverse();
+            document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
 
 
             //adicionar 1 ao contador de noticias
@@ -163,7 +162,7 @@ function adicionarnot() {
             document.getElementById('data').value = '';
             document.getElementById('descrição').value = '';
             document.getElementById('autor').value = '';
-            document.getElementById('categoria').value = '';
+            document.getElementById('categoria').value = "Esportes"
 
 
 
@@ -180,7 +179,7 @@ function adicionarnot() {
                             <div class="flexin">
                                 <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
                                 <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
-                                <p class="rightjo" id="new${i - 3}"></p>
+                                <p class="rightjo" id="new${i - 3}">novo</p>
                             </div>
                         </div>
                     </section>`;
@@ -226,6 +225,7 @@ function adicionarnot() {
 
 
             //adicionar outros textos
+            document.getElementById(`noticia${edit}`).style.display = 'block'
             var text2 = "";
             text2 = [...text];
             text2.reverse();
@@ -242,7 +242,6 @@ function adicionarnot() {
 
         }
         // deixar o valor do campo categoria preenchido
-        document.getElementById('categoria').value = "Esportes"
     } else {
         document.getElementById('error').innerHTML = 'Escolha uma categoria válida!';
         //erro de caso a categoria não seja valida (caso editada diretamente no codigo)
@@ -303,4 +302,5 @@ function editar(y) {
         </div>
     </section>`;
     document.getElementById('addbut').innerHTML = editarkk
+    document.getElementById(`noticia${y}`).style.display = 'none'
 }
