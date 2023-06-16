@@ -42,7 +42,9 @@ h1 {
     box-shadow: 10px;
     display: flex;
 }
-
+#art {
+    margin-left: 11%;
+}
 #div_sobrenos1 {
     display: flex;
     padding: 10px;
