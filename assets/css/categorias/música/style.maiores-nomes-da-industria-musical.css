@@ -16,7 +16,9 @@ iframe{
 * {
     margin: 0;
 }
-
+#art {
+    margin-left: 11%;
+}
 .class_h1 {
     text-align: left;
     color: rgb(29, 29, 29);
@@ -87,6 +89,7 @@ iframe{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
+    margin-left: 17%;
 }
 
 #section_credits {
