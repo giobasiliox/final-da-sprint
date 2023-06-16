@@ -431,6 +431,12 @@ font-size: 20px;
 .text_date{
     margin-left: 40%
 }
+#art{
+    margin-right: 10%;
+}
+.icon_text{
+   margin-left: -70%;
+}
 
   } 
   @media (min-width: 700px) {

@@ -16,6 +16,7 @@ var anos = [];
 var categorias = [];
 var editarkk = "editar"
 var addkk = "adicionar"
+// declaração de variaveis e arrays
 
 
 
@@ -23,12 +24,14 @@ var addkk = "adicionar"
 
 //function para adição de noticia 
 function adicionarnot() {
+
     //variáveis pegar valor escrito
     var titulo = document.getElementById('titulo').value;
     var data = document.getElementById('data').value;
     var descricao = document.getElementById('descrição').value;
     var autor = document.getElementById('autor').value;
     var categoria = document.getElementById('categoria').value;
+
     //variável separar a data
     var inteiro = data.split('-');
 
@@ -54,10 +57,12 @@ function adicionarnot() {
             if (categoria == '') {
                 document.getElementById('error').innerHTML = 'Preencha todos os campos !';
             }
+            // mensagens de erro adicionadas aos erros
         }
+
         //verifica se o botão de editar foi apertado (caso for falso)
         else if (edit < 0) {
-            var texts = [];
+
             //puxando os intens escritos para uma array
             dias.push(inteiro[2]);
             meses.push(inteiro[1]);
@@ -67,40 +72,77 @@ function adicionarnot() {
             descricoes.push(descricao);
             autores.push(autor);
             categorias.push(categoria);
-    
+
             //esvaziando variaveis
             titulo = '';
             data = '';
             descricao = '';
             autor = '';
             categoria = '';
-    
+
             //esvaziando as caixas de texto
             document.getElementById('titulo').value = '';
             document.getElementById('data').value = '';
             document.getElementById('descrição').value = '';
             document.getElementById('autor').value = '';
             document.getElementById('categoria').value = '';
-    
+
             //array dos textos adicionados
-            text[i] = `<section class="noticiToDo" id="noticia${i}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i]}</h1><h2 class="titlesno">Categoria: ${categorias[i]}</h2><h5 class="titlesno">Data: ${dias[i]}/${meses[i]}/${anos[i]}</h5><p class="titlesno">Descrição: ${descricoes[i]}</p><h4 class="titlesno">Autor: ${autores[i]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i})">Editar ✏️</button> <p class="rightjo" id="new${i}">novo</p></div></div></section>`;
-            texts.push(text[i]);
+            text[i] = `<section class="noticiToDo" id="noticia${i}">
+                <div class="separator">
+                    <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i]}</h1>
+                    <p class="titlesno"><strong>Categoria:</strong> ${categorias[i]}</p>
+                    <p class="titlesno"><strong>Data:</strong> ${dias[i]}/${meses[i]}/${anos[i]}</p>
+                    <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i]}</p>
+                    <p class="titlesno"><strong>Autor:</strong> ${autores[i]}</p>
+                    <div class="flexin">
+                        <button class="butdel" onclick="deletar(${i})">Deletar 🗑️</button>
+                        <button class="butedit" onclick="editar(${i})">Editar ✏️</button>
+                        <p class="rightjo" id="new${i}">novo</p>
+                    </div>
+                </div>
+            </section>`;
+
             //adicionar outros textos
-    
             var text2 = [];
             text2 = [...text];
             text2.reverse();
             document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
+
+
+
+            // retirar o ''novo'' de noticias acima de 3
             if (i >= 2) {
-                text[i - 2] = `<section class="noticiToDo" id="noticia${i - 2}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 2]}</h1><h2 class="titlesno">Categoria: ${categorias[i - 2]}</h2><h5 class="titlesno">Data: ${dias[i - 2]}/${meses[i - 2]}/${anos[i - 2]}</h5><p class="titlesno">Descrição: ${descricoes[i - 2]}</p><h4 class="titlesno">Autor: ${autores[i - 2]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 2})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 2})">Editar ✏️</button> <p class="rightjo" id="new${i - 2}"></p></div></div></section>`;
+                text[i - 2] = `<section class="noticiToDo" id="noticia${i - 2}">
+                    <div class="separator">
+                        <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 2]}</h1>
+                        <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 2]}</p>
+                        <p class="titlesno"><strong>Data:</strong> ${dias[i - 2]}/${meses[i - 2]}/${anos[i - 2]}</p>
+                        <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 2]}</p>
+                        <p class="titlesno"><strong>Autor:</strong> ${autores[i - 2]}</p>
+                        <div class="flexin">
+                            <button class="butdel" onclick="deletar(${i - 2})">Deletar 🗑️</button>
+                            <button class="butedit" onclick="editar(${i - 2})">Editar ✏️</button>
+                            <p class="rightjo" id="new${i - 2}"></p>
+                        </div>
+                    </div>
+                </section>`;
             }
+
+
+
+            //adicionar 1 ao contador de noticias
             i++;
-        document.getElementById('error').innerHTML = '';
+
+            //remover mensagem de erro
+            document.getElementById('error').innerHTML = '';
 
         }
+
         //verifica se o botão de editar foi apertado (caso verdadeiro)
         else if (edit > -1) {
-            //puxando os intens escritos para uma array
+
+            //puxando os itens escritos para uma array
             dias[edit] = inteiro[2];
             meses[edit] = inteiro[1];
             anos[edit] = inteiro[0];
@@ -109,43 +151,91 @@ function adicionarnot() {
             descricoes[edit] = descricao;
             autores[edit] = autor;
             categorias[edit] = categoria;
-    
+
             //esvaziando as caixas de texto
             document.getElementById('titulo').value = '';
             document.getElementById('data').value = '';
             document.getElementById('descrição').value = '';
             document.getElementById('autor').value = '';
             document.getElementById('categoria').value = '';
-    
-            //array dos textos adicionados
+
+
+
             if (i > 2) {
                 var sac = document.getElementById(`new${i - 3}`).innerHTML;
-                if (sac.toUpperCase() == 'NEW') {
-                    text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 3]}</h1><h2 class="titlesno">Categoria: ${categorias[i - 3]}</h2><h5 class="titlesno">Data: ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</h5><p class="titlesno">Descrição: ${descricoes[i - 3]}</p><h4 class="titlesno">Autor: ${autores[i - 3]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button> <p class="rightjo" id="new${i - 3}">novo</p></div></div></section>`;
+                if (sac.toUpperCase() == 'NOVO') {
+                    text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}">
+                        <div class="separator">
+                            <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 3]}</h1>
+                            <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 3]}</p>
+                            <p class="titlesno"><strong>Data:</strong> ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</p>
+                            <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 3]}</p>
+                            <p class="titlesno"><strong>Autor:</strong> ${autores[i - 3]}</p>
+                            <div class="flexin">
+                                <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
+                                <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
+                                <p class="rightjo" id="new${i - 3}">novo</p>
+                            </div>
+                        </div>
+                    </section>`;
                 }
-    
-                if (sac.toUpperCase() == 'EDITED') {
-                    text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[i - 3]}</h1><h2 class="titlesno">Categoria: ${categorias[i - 3]}</h2><h5 class="titlesno">Data: ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</h5><p class="titlesno">Descrição: ${descricoes[i - 3]}</p><h4 class="titlesno">Autor: ${autores[i - 3]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button><button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button> <p class="rightjo" id="new${i - 3}">editado</p></div></div></section>`;
+
+
+
+                if (sac.toUpperCase() == 'EDITADO') {
+                    text[i - 3] = `<section class="noticiToDo" id="noticia${i - 3}">
+                        <div class="separator">
+                            <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[i - 3]}</h1>
+                            <p class="titlesno"><strong>Categoria:</strong> ${categorias[i - 3]}</p>
+                            <p class="titlesno"><strong>Data:</strong> ${dias[i - 3]}/${meses[i - 3]}/${anos[i - 3]}</p>
+                            <p class="titlesno"><strong>Descrição:</strong> ${descricoes[i - 3]}</p>
+                            <p class="titlesno"><strong>Autor:</strong> ${autores[i - 3]}</p>
+                            <div class="flexin">
+                                <button class="butdel" onclick="deletar(${i - 3})">Deletar 🗑️</button>
+                                <button class="butedit" onclick="editar(${i - 3})">Editar ✏️</button>
+                                <p class="rightjo" id="new${i - 3}">editado</p>
+                            </div>
+                        </div>
+                    </section>`;
                 }
             }
-    
-            text[edit] = `<section class="noticiToDo" id="noticia${edit}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[edit]}</h1><h2 class="titlesno">Categoria: ${categorias[edit]}</h2><h5 class="titlesno">Data: ${dias[edit]}/${meses[edit]}/${anos[edit]}</h5><p class="titlesno">Descrição: ${descricoes[edit]}</p><h4 class="titlesno">Autor: ${autores[edit]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${edit})">Deletar 🗑️</button><button class="butedit" onclick="editar(${edit})">Editar ✏️</button><p class="rightjo" id="new${edit}">editado</p></div></div></section>`;
+            //array dos textos adicionados
+            text[edit] = `<section class="noticiToDo" id="noticia${edit}">
+                <div class="separator">
+                    <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[edit]}</h1>
+                    <p class="titlesno"><strong>Categoria:</strong> ${categorias[edit]}</p>
+                    <p class="titlesno"><strong>Data:</strong> ${dias[edit]}/${meses[edit]}/${anos[edit]}</p>
+                    <p class="titlesno"><strong>Descrição:</strong> ${descricoes[edit]}</p>
+                    <p class="titlesno"><strong>Autor:</strong> ${autores[edit]}</p>
+                    <div class="flexin">
+                        <button class="butdel" onclick="deletar(${edit})">Deletar 🗑️</button>
+                        <button class="butedit" onclick="editar(${edit})">Editar ✏️</button>
+                        <p class="rightjo" id="new${edit}">editado</p>
+                    </div>
+                </div>
+            </section>`;
+
             //adicionar outros textos
             var text2 = "";
             text2 = [...text];
             text2.reverse();
             document.getElementById(`todos`).innerHTML = `${text2.join(' ')}`;
-    
-    
+
+            // colocar o texto no botão adicionar
             document.getElementById('addbut').innerHTML = addkk
+
             //variável para completar
             edit = -1;
-        document.getElementById('error').innerHTML = '';
+
+            //limpar a caixa de erros
+            document.getElementById('error').innerHTML = '';
 
         }
+        // deixar o valor do campo categoria preenchido
         document.getElementById('categoria').value = "Esportes"
-    }  else {
+    } else {
         document.getElementById('error').innerHTML = 'Escolha uma categoria válida!';
+        //erro de caso a categoria não seja valida (caso editada diretamente no codigo)
 
     }  //verificar se as caixas de textos estão vazias
 
@@ -186,6 +276,19 @@ function editar(y) {
     document.getElementById('autor').value = autores[y];
     edit = y;
 
-    text[y] = `<section class="noticiToDo" id="noticia${y}"><div class="separator"><h1 class="titlesno">Titulo: ${titulos[y]}</h1><h2 class="titlesno">Categoria: ${categorias[y]}</h2><h5 class="titlesno">Data: ${dias[y]}/${meses[y]}/${anos[y]}</h5><p class="titlesno">Descrição: ${descricoes[y]}</p><h4 class="titlesno">Autor: ${autores[y]}</h4><div class="flexin"><button class="butdel" onclick="deletar(${y})">Deletar 🗑️</button><button class="butedit" onclick="editar(${y})">Editar ✏️</button> <p class="rightjo" id="new${y}">editado</p></div></div></section>`;
+    text[y] = `<section class="noticiToDo" id="noticia${y}">
+        <div class="separator">
+            <h1 class="titlesno"><strong>Titulo:</strong> ${titulos[y]}</h1>
+            <p class="titlesno"><strong>Categoria:</strong> ${categorias[y]}</p>
+            <p class="titlesno"><strong>Data:</strong> ${dias[y]}/${meses[y]}/${anos[y]}</p>
+            <p class="titlesno"><strong>Descrição:</strong> ${descricoes[y]}</p>
+            <p class="titlesno"><strong>Autor:</strong> ${autores[y]}</p>
+            <div class="flexin">
+                <button class="butdel" onclick="deletar(${y})">Deletar 🗑️</button>
+                <button class="butedit" onclick="editar(${y})">Editar ✏️</button>
+                <p class="rightjo" id="new${y}">editado</p>
+            </div>
+        </div>
+    </section>`;
     document.getElementById('addbut').innerHTML = editarkk
 }

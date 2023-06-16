@@ -347,8 +347,8 @@ h3 {
    
     }
     #title_membros{
-        margin-left: -55%;
-        width: 50%;
+        margin-left: -79%;
+        width: 60%;
     }
     .icon_text{
         margin-left: -50%;
@@ -398,5 +398,11 @@ h3{
 }
 #h9{
     margin-top: 30%;
+}
+#art{
+    margin-right: 10%;
+}
+.icon_text{
+   margin-left: -70%;
 }
 }
