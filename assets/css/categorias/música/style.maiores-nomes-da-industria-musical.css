@@ -105,6 +105,10 @@ iframe{
     padding-top: 15px;
     padding-left: 15px;
     width: 940px;
+    
+
+}
+#art{
     margin-left: 15%;
 }
 
@@ -375,6 +379,9 @@ a {
     }
 #title_membros {
     margin-left: 5%;
+}
+#art{
+    margin-left: 3%;
 }
       } 
       @media (min-width: 700px) {
