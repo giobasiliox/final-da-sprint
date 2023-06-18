@@ -20,6 +20,9 @@ function login() {
   
         if ((username == "Professor" || username == "Fábio_VilasBoas" || username == "Giovana_Basilio" || username == "Gabriel_Caurin" || username == "Nicoly_Val" || username == "Rafael_Cumpri" || username == "Victor_Hugo") && (password == "123" || password == "prof123")) {
             window.location.replace("./../../pages/to-do-list.html");
+        } else if((username == "visitante" || username == "Visitante") && (password == "visitante" || password == "Visitante")) {
+            window.location.replace("./../../pages/to-do-visitante.html");
+            alert("Você estará logado como visitante, não será possível salvar suas tarefas.");
         } else {
             document.getElementById("mensagem").style.display = "block";
         }
