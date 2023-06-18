@@ -416,7 +416,9 @@ a {
     padding-left: 0 !important;
 
 }
-
+#art{
+    margin-left: 15%;
+}
 
 @media screen and (max-device-width: 900px) and (min-device-height:400px){
     #header {
@@ -572,7 +574,10 @@ a {
       #creditos{
      margin-left: 25%;
       }
-
+      #art{
+        width: 90%;
+        margin-left: 3%;
+      }
 }
 
 @media (min-width: 700px) {
