@@ -277,18 +277,19 @@ a {
         margin-right: auto;
     }
 
-#todas_noticias{
-    width: 100%;
-    margin-left: 2%;
-
-}
-.section_noticias{
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: -5%;
-}
+    #todas_noticias{
+        width: 90%;
+        margin-left: -15%;
+    
+    }
+    
+    .section_noticias{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
 #estreilas{
     display: flex;
     margin-left: 38%;

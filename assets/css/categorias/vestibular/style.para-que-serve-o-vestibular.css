@@ -269,16 +269,17 @@ a {
     }
 
 #todas_noticias{
-    width: 100%;
-    margin-left: 2%;
+    width: 90%;
+    margin-left: 0%;
 
 }
 .section_noticias{
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -5%;
+    margin-left: -1%;
+ 
 }
 #estreilas{
     display: flex;
