@@ -323,6 +323,7 @@ h3 {
 }
 
 
+
 @media (min-width: 700px){
     #teste{
         display: none;
@@ -349,8 +350,10 @@ h3 {
         width: 60%;
     }
     .icon_text{
-        margin-left: -50%;
+ 
         width: 90%;
+        margin-left: -50%;
+      
     }
     #section_credits{
        margin-left: 28%;
@@ -400,7 +403,5 @@ h3{
 #art{
     margin-right: 10%;
 }
-.icon_text{
-   margin-left: -70%;
-}
+
 }

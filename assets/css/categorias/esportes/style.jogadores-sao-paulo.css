@@ -340,12 +340,11 @@ h3 {
     .section_noticias{
         width: 90%;
         margin-left: 2%;
-        display: flex;
    
     }
     #title_membros{
-        margin-left: -79%;
-        width: 60%;
+        margin-left: -55%;
+        width: 50%;
     }
     .icon_text{
         margin-left: -50%;
@@ -370,7 +369,7 @@ h3 {
     width: 70%;
     margin-bottom: 22.5px;
     resize: none;
-}
+}  
     #pai_principal{
         display: flex;
         flex-direction: column;
@@ -388,22 +387,20 @@ h3 {
 }
 .section_sobrenos{
     width: 90%;
-}
-h3{
-    margin-top: 10%;
-}
-#aris{
-    margin-top: 30%;
-}
-#h9{
-    margin-top: 30%;
-}
-#art{
-    margin-right: 10%;
-  
-}
-.icon_text{
-   margin-left: -70%;
-}
 
+    }
+    h3{
+        margin-top: 10%;
+    }
+    #aris{
+        margin-top: 30%;
+    }
+    #art{
+        margin-right: 10%;
+    }
+   
+    #title_membros{
+        margin-left: -79%;
+        width: 60%;
+    }
 }

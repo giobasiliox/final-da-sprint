@@ -333,10 +333,17 @@ a {
         padding: 0;
         margin-bottom: 40%;
     }
+    .img_noticias{
+        margin-left: 20%;
+    }
     #text_credits {
         text-align: center;
         font-size: 20px;
         margin-left: -220px;
+    }
+    .text_noticias  {
+        margin-left: 0%;
+        width: 90%;
     }
     #text_creditss { 
         margin-left: -67px;
@@ -433,10 +440,13 @@ font-size: 20px;
     margin-right: 10%;
 }
 .icon_text{
-   margin-left: -70%;
+   margin-left: -10%;
 }
+.title_noticias{
+    margin-left: 8%;
 
   } 
+}
   @media (min-width: 700px) {
     #teste{
         display: none;
