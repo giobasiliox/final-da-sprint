@@ -22,7 +22,7 @@ function login() {
             window.location.replace("./../../pages/to-do-list.html");
         } else if((username == "visitante" || username == "Visitante") && (password == "visitante" || password == "Visitante")) {
             window.location.replace("./../../pages/to-do-visitante.html");
-            alert("Você estará logado como visitante, não será possível salvar suas tarefas.");
+         
         } else {
             document.getElementById("mensagem").style.display = "block";
         }
