@@ -148,7 +148,7 @@ body {
     padding-top: 15px;
     padding-left: 15px;
     width: 940px;
-    margin-left: 150px;
+    margin-left: 15%;
 }
 
 .img_noticias {
@@ -340,20 +340,20 @@ h3 {
     .linkmateria {
         width: 90%;
     }
-
-    .section_noticias {
-        width: 90%;
-        margin-left: 2%;
-
+    .section_noticias{
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
     }
-
-    #title_membros {
-        margin-left: -60%;
-        width: 50%;
+    #title_membros{
+        margin-left: -68%;
+        width: 60%;
     }
 
     .icon_text {
-        margin-left: -50%;
+        margin-left: -120%;
         width: 90%;
     }
 

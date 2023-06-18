@@ -181,7 +181,7 @@ body {
     padding-top: 15px;
     padding-left: 15px;
     width: 940px;
-    margin-left: 15px;
+    margin-left: 15%;
 }
 
 .img_noticias {
@@ -362,6 +362,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 3%;
 }
 #estreilas{
     display: flex;

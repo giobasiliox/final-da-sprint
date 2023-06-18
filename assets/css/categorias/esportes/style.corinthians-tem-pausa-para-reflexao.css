@@ -148,7 +148,7 @@ box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
     padding-top: 15px;
     padding-left: 15px;
     width: 940px;
-    margin-left: 150px;
+    margin-left: 15%;
 }
 
 .img_noticias {
@@ -341,18 +341,20 @@ h3 {
         width: 90%;
     }
     .section_noticias{
-        width: 90%;
-        margin-left: 2%;
-   
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
     }
     #title_membros{
-        margin-left: -79%;
+        margin-left: -68%;
         width: 60%;
     }
     .icon_text{
  
         width: 90%;
-        margin-left: -50%;
+        margin-left: -120%;
       
     }
     #section_credits{
@@ -402,6 +404,11 @@ h3{
 }
 #art{
     margin-right: 10%;
+}
+#ar02{
+    margin-right: 10%;
+    margin-left: -10%;
+    width: 80%;
 }
 
 }
