@@ -255,7 +255,6 @@ margin-right: -30%;
     margin-left: 365px;
     font-family: arial;
 }
-
 .section_noticias {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -264,7 +263,7 @@ margin-right: -30%;
     padding-top: 15px;
     padding-left: 15px;
     width: 940px;
-    margin-left: 15px;
+    margin-left: 15%;
 }
 
 .img_noticias {
@@ -392,6 +391,7 @@ a {
         width: 88%;
         display: flex;
         flex-direction: column;
+        margin-left: 3%;
     }
 
     .img_textN {
